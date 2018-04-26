@@ -72,15 +72,15 @@ Some File
 - 입력하는 동안 피쉬(fish) 구문 강조를 수행한다는 것을 빨리 알 수 있습니다.
 - 잘못된 명령은 기본적으로 <font color="red">빨간색(Red)</font>으로 표시됩니다.
 
-> <font color="red">/bin/mkd</font>
+\> <font color="red">/bin/mkd</font>
 
 - 명령이 존재하지 않거나 실행할 수 없는 파일을 참조하기 때문에 명령이 유효하지 않을 수 있습니다. 명령이 유효해지면 다른 색으로 표시됩니다.
 
-> <font color="blue">/bin/mkdir</font>
+\> <font color="blue">/bin/mkdir</font>
  
 -  피쉬(fish)는 입력할 때 유효한 파일 경로에 밑줄을 긋습니다.
 
-> <font color="purple">cat</font> <font color="blue"><u>~/somefi</u></font>
+\> <font color="purple">cat</font> <font color="blue"><u>~/somefi</u></font>
  
 - 이것은 'somefi'로 시작하는 파일이 있다는 것을 의미하며, 이는 입력할 때 유용한 피드백입니다.
 - 이러한 색상과 그 이상은 fish_config 를 실행하거나 변수를 직접 수정하여 변경할 수 있습니다.
@@ -136,7 +136,7 @@ Some File
 	> <font color="red">/bin/h</font><font color="grey">ostname</font>
 
 - 피쉬는 경로 및 옵션에 대해 알고 있습니다.
-> <font color="purple">grep</font> <font color="blue">--i</font><font color="grey">gnore-case</font>
+\> <font color="purple">grep</font> <font color="blue">--i</font><font color="grey">gnore-case</font>
 
 - 그리고 명령을 한 번 입력하면 기록(history)도 몇자를 입력하여 명령을 다시 불러올 수 있습니다.
 
