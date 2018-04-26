@@ -18,7 +18,7 @@
 > [Fish:피쉬 또는 Fish Shell:피쉬 쉘 로 발음합니다. 원하실 경우 ‘물고기’로 불러도 됩니다]
 
 - 피쉬(fish)는 스마트하고 사용하기 쉬운 완벽히 준비된 명령행 쉘(Shell)입니다.
-	- 잘 알려진 쉘에는 bash 또는 zsh 등이 있습니다. 
+	- 잘 알려진 쉘에는 bash 또는 zsh 등이 있습니다.
 - 피쉬(fish)는 구문 강조, 자동 제안 및 탭 완성과 같은 강력한 기능을 지원하며, 사용하기 위하여 장시간 학습하거나 구성할 필요가 없습니다.
 - 복잡한 명령과 구성 옵션을 배우지 않고도, 명령줄(command line)을 보다 생산적으로 더 유용하고 재미있게 만들고 싶다면, 피쉬(fish)는 당신이 찾고 있는 것일 수도 있습니다.
 
@@ -61,7 +61,7 @@ Some File
 - 웹 브라우저에서 help 을 실행하고 man 페이지에서 help 을 실행하십시오.
 - 특정 명령에 대한 도움을 요청할 수도 있습니다.
 	- 예: 웹 브라우저에서 열기 위해서 help set, 터미널에서 보기 위해 man set 설정
-	
+
 <pre>
 > <font color="purple">man</font> <font color="blue">set</font>
 set - handle shell variables
@@ -81,13 +81,13 @@ set - handle shell variables
 <pre>
 > <font color="blue">/bin/mkdir</font>
 </pre>
- 
+
 -  피쉬(fish)는 입력할 때 유효한 파일 경로에 밑줄을 긋습니다.
 
 <pre>
 > <font color="purple">cat</font> <font color="blue"><u>~/somefi</u></font>
 </pre>
- 
+
 - 이것은 'somefi'로 시작하는 파일이 있다는 것을 의미하며, 이는 입력할 때 유용한 피드백입니다.
 - 이러한 색상과 그 이상은 fish_config 를 실행하거나 변수를 직접 수정하여 변경할 수 있습니다.
 
@@ -153,7 +153,7 @@ set - handle shell variables
 <pre class="fish cli-dark"><span class="prompt">&gt;</span> <span class="error"><font color="red">r</font><span class="redirect">&lt;</span></span>\@args{ync} \ <span class="argument"><font color="blue">ssh</font></span> <span class="argument"><font color="blue">.</font></span> <span class="argument"><font color="blue">myname</font></span><span>@</span>somelonghost.com:/some/long/path/doo/dee/doo/dee/doo}
 </pre>
 
-- 자동 제안을 수락하려면  → 또는 Control F 를 누르십시오. 
+- 자동 제안을 수락하려면  → 또는 Control F 를 누르십시오.
 - 자동 제안의 한 단어를 수락하려면  Alt (오른쪽 화살표)를 누르십시오.
 - 자동 검색 기능이 원하는 기능이 아닌 경우에는 무시하십시오.
 
@@ -333,11 +333,11 @@ entry: /usr/local/bin
 1 2 3 banana
 </pre>
 
-- 이는 괄호 확장(Brace Expansion)과 유사합니다. https://fishshell.com/docs/current/index.html#expand-brace 
+- 이는 괄호 확장(Brace Expansion)과 유사합니다. https://fishshell.com/docs/current/index.html#expand-brace
 
 ### 명령 확장(Variable expansion)
 - 명령 확장은 한 명령의 출력을 다른 명령의 인수로 사용합니다.
-- 다른 쉘과는 달리, 피쉬(fish)는 명령 확장을 위해 <font color="red">백틱(`)을 사용하지 않습니다!</font>
+- 다른 쉘과는 달리, 피쉬(fish)는 명령 확장을 위해 <font color="red">백틱(\`)을 사용하지 않습니다!</font>
 - 대신 괄호()를 사용합니다.
 
 <pre>
@@ -392,29 +392,29 @@ testing_1360099791.txt
 - 대신에 and, or, not 명령을 가지고 있습니다.
 
 <pre>
-> cp file1.txt file1_bak.txt; and echo "Backup successful"; or echo "Backup failed"
+> <font color="purple">cp</font> file1.txt file1_bak.txt; <font color="purple">and echo</font> <font color="brown">"Backup successful"</font>; or echo <font color="brown">"Backup failed"</font>
 Backup failed
 </pre>
 
 - 세미콜론 장절에서 언급했듯이 다음과 같이 여러 줄로 작성할 수도 있습니다.
 
 <pre>
-cp file1.txt file1_bak.txt
-and echo "Backup successful"
-or echo "Backup failed"
+<font color="purple">cp</font> file1.txt file1_bak.txt
+and <font color="purple">echo</font> <font color="brown">"Backup successful"</font>
+or <font color="purple">echo</font> <font color="brown">"Backup failed"</font>
 </pre>
 
 ### 조건문 (If, Else, Switch)
 -  If, else if 및 else 를 사용하여 명령(command)의 종료 상태에 따라 조건부로 코드를 실행 가능합니다.
 
 <pre>
-if grep fish /etc/shells
-    echo Found fish
-else if grep bash /etc/shells
-    echo Found bash
-else
-    echo Got nothing
-end
+<font color="purple">if grep</font> fish /etc/shells
+    <font color="purple">echo</font> Found fish
+<font color="purple">else if grep</font> bash /etc/shells
+    <font color="purple">echo</font> Found bash
+<font color="purple">else</font>
+    <font color="purple">echo</font> Got nothing
+<font color="purple">end</font>
 </pre>
 
 - 복합자(Combiners)는 또한 다음과 같이 더 복잡한 조건을 만드는 데 사용될 수 있습니다.
@@ -429,61 +429,61 @@ end
 	- switch 명령도 있습니다.
 
 <pre>
-switch (uname)
-case Linux
-    echo Hi Tux!
-case Darwin
-    echo Hi Hexley!
-case FreeBSD NetBSD DragonFly
-    echo Hi Beastie!
-case '*'
-    echo Hi, stranger!
-end
+<font color="purple">switch</font> (uname)
+<font color="purple">case</font> Linux
+    <font color="purple">echo</font> Hi Tux!
+<font color="purple">case</font> Darwin
+    <font color="purple">echo</font> Hi Hexley!
+<font color="purple">case FreeBSD NetBSD DragonFly
+    <font color="purple">echo</font> Hi Beastie!
+<font color="purple">case</font> '*'
+    <font color="purple">echo</font> Hi, stranger!
+<font color="purple">end</font>
 </pre>
 
 - case 는 (다음 case 구문으로는) 작동되지 않으며(does not fall through), 여러 개의 인수 또는 와일드 카드(*)를 사용할 수 있습니다.
 - (예제에서 Linux Fish 인 경우, Hi Tux! 만 출력되며, MSYS Fish 인 경우 Hi, Stranger 가 출력됩니다.)
 
 ### 함수 (Function)
-- 피쉬 함수(function)는 선택적으로 인자(argument)를 취할 수 있는 명령 목록(list of commands)입니다. 
-- 다른 쉘과 달리 인수는 $1 과 같은 <font color="red">'번호가 매겨진 변수'로 전달되지 않고</font>, 단일 목록 $argv 됩니다! 
+- 피쉬 함수(function)는 선택적으로 인자(argument)를 취할 수 있는 명령 목록(list of commands)입니다.
+- 다른 쉘과 달리 인수는 $1 과 같은 <font color="red">'번호가 매겨진 변수'로 전달되지 않고</font>, 단일 목록 $argv 됩니다!
 - 함수를 만들려면 내장 함수를 사용하십시오.
 
 <pre>
-> function say_hello
-          echo Hello $argv
-  end
-> say_hello
+> <font color="purple">function</font> say_hello
+          <font color="purple">echo</font> Hello $argv
+  <font color="purple">end</font>
+> <font color="blue">say_hello</font>
 Hello
-> say_hello everybody!
+> <font color="blue">say_hello everybody!</font>
 Hello everybody!
-</pre> 
+</pre>
 
 - 다른 쉘과 달리 피쉬(fish)에는 별칭(alias)이나 특별한 프롬프트 구문(prompt syntax)이 없습니다. 함수가 그들의 자리를 잡습니다.
-- functions 키워드를 사용하여 모든 함수의 이름을 나열할 수 있습니다. (복수형(~s)임을 주의!). 
+- functions 키워드를 사용하여 모든 함수의 이름을 나열할 수 있습니다. (복수형(~s)임을 주의!).
 - 피쉬(fish)는 많은 함수를 제공합니다.
 
 <pre>
-> functions
+> <font color="purple">functions</font>
 alias, cd, delete-or-exit, dirh, dirs, down-or-search, eval, export, fish_command_not_found_setup, fish_config, fish_default_key_bindings, fish_prompt, fish_right_prompt, fish_sigtrap_handler, fish_update_completions, funced, funcsave, grep, help, history, isatty, ls, man, math, nextd, nextd-or-forward-word, open, popd, prevd, prevd-or-backward-word, prompt_pwd, psub, pushd, seq, setenv, trap, type, umask, up-or-search, vared
 </pre>
 
 - 함수 이름을 functions 에 전달하면 모든 함수의 소스(source)를 볼 수 있습니다.
 
 <pre>
-> functions ls
-function ls --description 'List contents of directory'
-    command ls -G $argv
-end
+> <font color="purple">functions</font> <font color="blue">ls</font>
+<font color="purple">function</font> <font color="blue">ls</font> --description 'List contents of directory'
+    <font color="purple">command ls</font> <font color="blue">-G</font> $argv
+<font color="purple">end</font>
 </pre>
 
 ### 루프 (Loop)
 - while 무한 루프 :
 
 <pre>
-> while true
-    echo "Loop forever"
-end
+> <font color="purple">while</font> true
+    <font color="purple">echo</font> "Loop forever"
+<font color="purple">end</font>
 Loop forever
 Loop forever
 Loop forever
@@ -494,9 +494,9 @@ Loop forever
 - 예를 들어, 파일 목록 :
 
 <pre>
-> for file in *.txt
-    cp $file $file.bak
-end
+> <font color="purple">for</font> file <font color="purple">in</font> *.txt
+    <font color="purple">cp</font> $file $file.bak
+<font color="purple">end</font>
 </pre>
 
 - 명령 seq 을 사용하여 숫자 목록을 반복 할 수 있습니다.
@@ -508,7 +508,7 @@ end
 </pre>
 
 ### 프롬프트 (Prompt)
-- 피쉬는 다른 셸과 달리 <font color="red">프롬프트 변수는 없습니다!</font> (PS1 처럼) 
+- 피쉬는 다른 셸과 달리 <font color="red">프롬프트 변수는 없습니다!</font> (PS1 처럼)
 - 프롬프트를 표시하기 위해 피쉬(fish)는 fish_prompt 라는 이름의 함수를 실행하고, 출력은 프롬프트로 사용됩니다.
 - 다음과 같은 나만의 프롬프트도 정의할 수 있습니다.
 
@@ -516,7 +516,7 @@ end
 > function fish_prompt
     echo "New Prompt % "
 end
-New Prompt % 
+New Prompt %
 </pre>
 
 - 여러 줄은 괜찮습니다.
@@ -617,7 +617,7 @@ vim
 - 피쉬에 대해 더 자세히 알고 싶다면 상세한 문서, 공식 메일링 리스트, IRC 채널 #fish (irc.oftc.net ) 및 github 페이지가 있습니다. [https://github.com/fish-shell/fish-shell/](https://github.com/fish-shell/fish-shell/)
 
 #### 번역 후기
-- 피쉬를 써보니 일단 편합니다! 
+- 피쉬를 써보니 일단 편합니다!
 - 체감적으로 편하다는 것은 열번 정도 누를 키를 서너번만 눌러도 된다는 정도의 편함이라고 이해하시면 될 것 같습니다.
 - 시간날때 나머지 글도 번역 예정입니다
 
@@ -629,4 +629,3 @@ vim
 
 #### 라이선스 주의
 - 피쉬 쉘의 소스코드 및 자료는 모두 GPL 라이선스 2 입니다. 쉽게 이야기 해서 해당 코드 및 자료를 사용하면 공개하셔야 합니다.
-	
