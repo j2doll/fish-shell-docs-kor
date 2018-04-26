@@ -48,8 +48,8 @@ hello world
 - 역 슬래시(\)가 있는 인수에 리터럴(literal) 공백을 포함하거나 작은 따옴표(') 나 큰 따옴표(“)를 사용할 수 있습니다.
 
 <pre>
-> mkdir My\ Files
-> cp ~/Some\ File 'My Files'
+> <font color="blue">mkdir My\ Files</font>
+> <font color="purple">cp</font> <font color="blue">~/Some\ File</font> 'My Files'
 > ls "My Files"
 Some File
 </pre>
