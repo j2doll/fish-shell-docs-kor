@@ -614,15 +614,15 @@ vim
 </pre>
 
 ### 피쉬를 사용하실 준비되셨습니까?!
-- 피쉬에 대해 더 자세히 알고 싶다면 상세한 문서, 공식 메일링 리스트, IRC 채널 #fish (irc.oftc.net ) 및 github 페이지가 있습니다.  https://github.com/fish-shell/fish-shell/ 
+- 피쉬에 대해 더 자세히 알고 싶다면 상세한 문서, 공식 메일링 리스트, IRC 채널 #fish (irc.oftc.net ) 및 github 페이지가 있습니다. [https://github.com/fish-shell/fish-shell/](https://github.com/fish-shell/fish-shell/)
 
 #### 번역 후기
 - 피쉬를 써보니 일단 편합니다! 
 - 체감적으로 편하다는 것은 열번 정도 누를 키를 서너번만 눌러도 된다는 정도의 편함이라고 이해하시면 될 것 같습니다.
 - 시간날때 나머지 글도 번역 예정입니다
 - 다음의 경로에도 수록되어 있습니다.
-	- https://okky.kr/article/454099
-	-  http://j2doll.tistory.com/563
-- 원본 https://fishshell.com/docs/current/tutorial.html
+	- [https://okky.kr/article/454099](https://okky.kr/article/454099)
+	- [http://j2doll.tistory.com/563](http://j2doll.tistory.com/563)
+- 원본 [https://fishshell.com/docs/current/tutorial.html](https://fishshell.com/docs/current/tutorial.html)
 
 	
