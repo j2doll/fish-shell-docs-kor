@@ -434,7 +434,7 @@ end
     <font color="purple">echo</font> Hi Tux!
 <font color="purple">case</font> Darwin
     <font color="purple">echo</font> Hi Hexley!
-<font color="purple">case FreeBSD NetBSD DragonFly
+<font color="purple">case</font> FreeBSD NetBSD DragonFly
     <font color="purple">echo</font> Hi Beastie!
 <font color="purple">case</font> '*'
     <font color="purple">echo</font> Hi, stranger!
