@@ -114,9 +114,28 @@ Some File
 
 - 해당 디렉토리 탐색에 오랜 시간이 걸리면 Ctrl + C 를 사용하여 중지할 수 있습니다.
 
+### 파이프 및 방향 전환 (Pipes and Redirections)
+- 일반적인 세로 막대(|)를 사용하여 명령 사이를 파이프 할 수 있습니다.
 
+```fish
+> echo hello world | wc
+       1       2      12
+```
 
+- stdin 및 stdout는 익숙한 < 및 > 를 통해 리디렉션(redirection) 될 수 있습니다.
+- 다른 쉘과는 달리 stderr은 캐럿(^)으로 리디렉션됩니다.
 
+```fish
+> grep fish < /etc/shells > ~/output.txt ^ ~/errors.txt
+```
+
+### 자동 제안 (Auto-suggestions)
+- 피쉬(fish)는 사용자가 입력할 때 명령(command)을 제안하고, 커서 오른쪽에있는 제안을 회색으로 표시합니다.
+
+> 예
+	> <font color="red">/bin/h</font><font color="grey">ostname</font>
+
+- 
 
 
  
