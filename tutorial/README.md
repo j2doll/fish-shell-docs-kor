@@ -146,7 +146,7 @@ set - handle shell variables
 
 <pre>
 > <font color="purple">grep</font> <font color="blue">--i</font>gnore-case
-<pre>
+</pre>
 
 - 그리고 명령을 한 번 입력하면 기록(history)도 몇자를 입력하여 명령을 다시 불러올 수 있습니다.
 
