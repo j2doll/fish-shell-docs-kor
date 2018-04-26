@@ -214,8 +214,33 @@ Mister Noodle
 - <font color="red">(따옴표를 주의 하십시오! : 그것들이 없으면 Mister와 Noodle은 별도의 인수가 되고 $name은 두 개의 요소 목록으로 만들어집니다.)</font>
 - 다른 셸과 달리 변수는 대체 후에 더 이상 분리되지 않습니다.
 
+<pre>
+> <font color="blue">mkdir</font> <font color="aqua">$name</font>
+> <font color="purple">ls</font>
+Mister Noodle
+</pre>
 
+- bash에서는 두 개의 디렉토리 인 "Mister"와 "Noodle"을 만들었을 것입니다.
+- 피쉬(fish)에서는 단지 하나의 경로(Mister Noodle)를 만들었습니다.
+- 변수는 "Mister Noodle"이라는 값을 가졌으며, 그것은 mkdir 에 전달된 인수(argument)입니다.
+- 다른 셸에서는 목록이 아닌 "배열(array)"이라는 용어를 사용합니다.
 
+### 종료 상태(Exit Status)
 
+- 다른 쉘과 달리 피쉬(fish)는 마지막 명령(last command)의 종료 상태를 $?. 대신 $status 에 저장합니다.
+
+<pre>
+> <font color="purple">false</font>
+> <font color="purple">echo</font> <font color="aqua">$status</font>
+1
+</pre>
+
+- 반환값이 0인 경우 성공(success)으로 간주되고, 0이 아닌 값은 실패(failure)입니다.
+
+### 내보내기 (셸 변수)
+
+- 다른 쉘과 달리 피쉬(fish)에는 <font color="red">export 명령이 없습니다!</font>
+- 대신 변수는 –export 또는 -x 중 하나를 set 하는 옵션을 통해 내보내집니다.
+- (set 명령어 활용을 권장합니다!)
 
 
