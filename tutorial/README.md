@@ -182,6 +182,8 @@ set - handle shell variables
 builtin_list_io_merge <font color="grey">(Branch)</font> <font color="aqua">builtin_set_color</font> <font color="grey">(Branch)</font> <font color="aqua">busted_events</font> <font color="grey">(Tag)</font>
 </pre>
 
+- 탭을 치고 피쉬(fish)가 할 수 있는 것들을 보십시오!
+
 
 
  
