@@ -74,8 +74,45 @@ Some File
 
 > <font color="red">/bin/mkd</font>
 
-
 - 명령이 존재하지 않거나 실행할 수 없는 파일을 참조하기 때문에 명령이 유효하지 않을 수 있습니다. 명령이 유효해지면 다른 색으로 표시됩니다.
+
+> <font color="blue">/bin/mkdir</font>
+ 
+- 이것은 'somefi'로 시작하는 파일이 있다는 것을 의미하며, 이는 입력 할 때 유용한 피드백입니다.
+- 이러한 색상과 그 이상은 fish_config 를 실행하거나 변수를 직접 수정하여 변경할 수 있습니다.
+
+### 와일드 카드 (Wildcards)
+- 피쉬(fish)는 익숙한 와일드 카드(*)를 지원합니다.
+- 모든 JPEG 파일(*.jpg)을 나열하려면 다음과 같이하십시오.
+
+```fish
+> ls *.jpg
+ lena.jpg
+ meena.jpg
+ 산타 마리아.j
+```
+
+- 여러 개의 와일드 카드를 포함 할 수도 있습니다.
+
+```fish
+> ls l*.p*
+ lena.png
+ lesson.pdf
+```
+
+- 특히 재귀적으로 디렉토리를 검색하는 재귀적 와일드 카드(**)가 강력합니다.
+
+```fish
+> ls /var/**.log
+ /var/log/system.log
+ /var/run/sntp.log
+```
+
+- 해당 디렉토리 탐색에 오랜 시간이 걸리면 Ctrl + C 를 사용하여 중지할 수 있습니다.
+
+
+
+
 
 
  
