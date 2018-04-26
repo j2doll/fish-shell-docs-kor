@@ -78,6 +78,10 @@ Some File
 
 > <font color="blue">/bin/mkdir</font>
  
+-  피쉬(fish)는 입력할 때 유효한 파일 경로에 밑줄을 긋습니다.
+
+> <font color="purple">cat</font> <font color="purple"><u>~/somefi</u></font>
+ 
 - 이것은 'somefi'로 시작하는 파일이 있다는 것을 의미하며, 이는 입력 할 때 유용한 피드백입니다.
 - 이러한 색상과 그 이상은 fish_config 를 실행하거나 변수를 직접 수정하여 변경할 수 있습니다.
 
@@ -89,7 +93,7 @@ Some File
 > ls *.jpg
  lena.jpg
  meena.jpg
- 산타 마리아.j
+ 산타 마리아.jpg
 ```
 
 - 여러 개의 와일드 카드를 포함 할 수도 있습니다.
