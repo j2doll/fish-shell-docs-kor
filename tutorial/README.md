@@ -620,9 +620,13 @@ vim
 - 피쉬를 써보니 일단 편합니다! 
 - 체감적으로 편하다는 것은 열번 정도 누를 키를 서너번만 눌러도 된다는 정도의 편함이라고 이해하시면 될 것 같습니다.
 - 시간날때 나머지 글도 번역 예정입니다
+
+#### 미러링된 글
 - 다음의 경로에도 수록되어 있습니다.
 	- [https://okky.kr/article/454099](https://okky.kr/article/454099)
 	- [http://j2doll.tistory.com/563](http://j2doll.tistory.com/563)
 - 원본 [https://fishshell.com/docs/current/tutorial.html](https://fishshell.com/docs/current/tutorial.html)
 
+#### 라이선스 주의
+- 피쉬 쉘의 소스코드 및 자료는 모두 GPL 라이선스 2 입니다. 쉽게 이야기 해서 해당 코드 및 자료를 사용하면 공개하셔야 합니다.
 	
