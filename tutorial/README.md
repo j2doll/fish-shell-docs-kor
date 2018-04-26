@@ -2,9 +2,9 @@
 
 > *[문서](https://j2doll.github.io/fish-shell-docs-kor/doc/)*
 
-> *[자습서](https://j2doll.github.io/fish-shell-docs-kor/tutorial/)*
+> *[<b>자습서</b>](https://j2doll.github.io/fish-shell-docs-kor/tutorial/)*
 
-> *[<b>디자인</b>](https://j2doll.github.io/fish-shell-docs-kor/design/)*
+> *[디자인](https://j2doll.github.io/fish-shell-docs-kor/design/)*
 
 > *[명령](https://j2doll.github.io/fish-shell-docs-kor/commands/)*
 
@@ -614,7 +614,7 @@ New Prompt %
 </pre>
 
 ### 피쉬를 사용하실 준비되셨습니까?!
-- 피쉬에 대해 더 자세히 알고 싶다면 상세한 문서, 공식 메일링 리스트, IRC 채널 #fish (irc.oftc.net ) 및 github 페이지가 있습니다. [https://github.com/fish-shell/fish-shell/](https://github.com/fish-shell/fish-shell/)
+- 피쉬에 대해 더 자세히 알고 싶다면 상세한 문서, 공식 메일링 리스트, IRC 채널 #fish (irc.oftc.net) 및 github 페이지가 있습니다. [https://github.com/fish-shell/fish-shell/](https://github.com/fish-shell/fish-shell/)
 
 #### 번역 후기
 - 피쉬를 써보니 일단 편합니다!
