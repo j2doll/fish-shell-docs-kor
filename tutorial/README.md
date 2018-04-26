@@ -30,7 +30,7 @@
 <pre>
 Welcome to fish, the friendly interactive shell
 Type <font color="green">help</font> for instructions on how to use fish
-you@hostname <font color="green">\~\><font> <font color="green">_<font>
+you@hostname <font color="green">~<font>\> <font color="green">_<font>
 </pre>
 
 - 피쉬(fish)는 사용자 이름, 호스트 이름 및 작업 디렉토리를 보여주는 기본 프롬프트(default prompt)와 함께 제공됩니다. 또한 다음 경로에 프롬프트를 변경하는 방법을 기술하고 있습니다. [https://fishshell.com/docs/current/tutorial.html#tut_prompt](https://fishshell.com/docs/current/tutorial.html#tut_prompt)
