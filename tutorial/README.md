@@ -168,6 +168,19 @@ set - handle shell variables
 
 - 둘 이상의 가능성이 있는 경우 목록에 표시됩니다.
 
+<pre>
+> <font color="red">~/stuff/s</font> @key{Tab}
+~/stuff/script.sh  <font color="grey">(Executable, 4.8kB)</font>  <font/>~/stuff/sources/</font>  (Directory)
+</pre>
+
+- Hit tab again to cycle through the possibilities.
+- fish can also complete many commands, like git branches:
+
+<pre>
+> <font color="purple">git</font> <font color="blue">merge pr</font> @key{Tab} → <font color="purple">git</font> <font color="blue">merge prompt_designer</font>
+> <font color="purple">git</font> <font color="blue">checkout b</font> @key{Tab}
+builtin_list_io_merge <font color="grey">(Branch)</font> <font color="aqua">builtin_set_color</font> <font color="grey">(Branch)</font> <font color="aqua">busted_events</font> <font color="grey">(Tag)</font>
+</pre>
 
 
 
