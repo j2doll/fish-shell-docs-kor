@@ -502,9 +502,9 @@ Loop forever
 - 명령 seq 을 사용하여 숫자 목록을 반복 할 수 있습니다.
 
 <pre>
-> for x in (seq 5)
-    touch file_$x.txt
-end
+> <font color="purple">for</font> x in (<font color="purple">seq</font> 5)
+    <font color="purple">touch</font> file_<font color="blue">$x</font>.txt
+<font color="purple">end</font>
 </pre>
 
 ### 프롬프트 (Prompt)
@@ -513,9 +513,9 @@ end
 - 다음과 같은 나만의 프롬프트도 정의할 수 있습니다.
 
 <pre>
-> function fish_prompt
-    echo "New Prompt % "
-end
+> <font color="purple">function</font> <font color="blue">fish_prompt</font>
+    <font color="purple">echo</font> <font color="brown">"New Prompt % "</font>
+<font color="purple">end</font>
 New Prompt %
 </pre>
 
@@ -523,14 +523,14 @@ New Prompt %
 - set_color 를 통해 색상을 설정하고 ANSI 색상 또는 16 진수 RGB 값을 전달할 수도 있습니다.
 
 <pre>
-> function fish_prompt
-      set_color purple
-      date "+%m/%d/%y"
-      set_color FF0
-      echo (pwd) '>'
-      set_color normal
-  end
-02/06/13
+> <font color="purple">function</font> fish_prompt
+      <font color="purple">set_color</font> purple
+      <font color="purple">date</font> <font color="brown">"+%m/%d/%y"</font>
+      <font color="purple">set_color</font> FF0
+      <font color="purple">echo</font> (pwd) <font color="brown">'>'</font>
+      <font color="purple">set_color</font> normal
+  <font color="purple">end</font>
+<font color="red">02/06/13</font>
 /home/tutorial >
 </pre>
 
@@ -539,24 +539,24 @@ New Prompt %
 
 ### $PATH (경로 변수)
 
-- $PATH 는 fish 가 명령을 검색하는 디렉토리를 포함하는 환경 변수입니다. 다른 쉘과 달리 $ PATH 는 콜론으로 구분된 문자열이 아닌 목록(list)입니다.
+- $PATH는 피쉬(fish)가 명령을 검색하는 디렉토리를 포함하는 환경 변수입니다. 다른 쉘과 달리 $PATH는 콜론으로 구분된 문자열이 아닌 목록(list)입니다.
 - /usr/local/bin 과 /usr/sbin 을 $PATH 앞에 추가하려면 다음과 같이 작성할 수 있습니다.
 
 <pre>
-> set PATH /usr/local/bin /usr/sbin $PATH
+> <font color="purple">set</font> <font color="blue">PATH /usr/local/bin /usr/sbin</font> $PATH
 </pre>
 
 - $PATH 에서 /usr/local/bin 을 제거하려면 다음과 같이 작성할 수 있습니다.
 
 <pre>
-> set PATH (string match -v /usr/local/bin $PATH)
+> <font color="purple">set</font> <font color="blue">PATH</font> (<font color="purple">string</font> <font color="blue">match -v /usr/local/bin</font> $PATH)
 </pre>
 
 - .profile 파일을 가진 다른 쉘 에서처럼 피쉬는 config.fish 파일에서 직접 작업을 할 수 있습니다. (예제 참조)
 - 더 빠른 방법은 $fish_user_paths universal 변수 를 수정하는 $fish_user_paths 을 사용하여 자동으로 $PATH 앞에 추가하는 것입니다. 예를 들어 $PATH 에 /usr/local/bin 을 영구적으로 추가하려면 다음과 같이 작성할 수 있습니다.
 
 <pre>
-> set -U fish_user_paths /usr/local/bin $fish_user_paths
+> <font color="purple">set</font> <font color="blue">-U fish_user_paths /usr/local/bin</font> $fish_user_paths
 </pre>
 
 - 이러한 방법의 잇점은 파일에서 수정할 필요가 없다는 것입니다.
@@ -569,13 +569,13 @@ New Prompt %
 - 위에 표시된 명령을 사용하여 config.fish 파일에 함수 및 변수를 직접 작성할 수 있습니다.
 
 <pre>
-> cat ~/.config/fish/config.fish
+> <font color="purple">cat</font> ~/.config/fish/config.fish
 
-set -x PATH $PATH /sbin/
+<font color="purple">set</font> <font color="blue">-x PATH</font> $PATH <font color="blue">/sbin/</font>
 
-function ll
-    ls -lh $argv
-en
+<font color="purple">function</font> <font color="blue">ll</font>
+    <font color="purple">ls</font> <font color="blue">-lh</font> $argv
+<font color="purple">end</font>
 </pre>
 
 ### 함수 자동 로딩 (Autoloading Functions)
