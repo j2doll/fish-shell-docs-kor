@@ -49,8 +49,8 @@ hello world
 
 <pre>
 > <font color="blue">mkdir My\ Files</font>
-> <font color="purple">cp</font> <font color="blue">~/Some\ File</font> 'My Files'
-> ls "My Files"
+> <font color="purple">cp</font> <font color="blue">~/Some\ File</font> <font color="yellow">'My Files'</font>
+> <font color="purple">ls</font> <font color="yellow">"My Files"</font>
 Some File
 </pre>
 
@@ -63,24 +63,30 @@ Some File
 	- 예: 웹 브라우저에서 열기 위해서 help set, 터미널에서 보기 위해 man set 설정
 	
 <pre>
->  man set
- set - 쉘 변수를 처리한다.
- 개요.
+> <font color="purple">man</font> <font color="blue">set</font>
+set - handle shell variables
+  Synopsis...
 </pre>
 
 ### 구문 강조 (Syntax Highlighting)
 - 입력하는 동안 피쉬(fish) 구문 강조를 수행한다는 것을 빨리 알 수 있습니다.
 - 잘못된 명령은 기본적으로 <font color="red">빨간색(Red)</font>으로 표시됩니다.
 
-<pre> > <font color="red">/bin/mkd</font> </pre>
+<pre>
+> <font color="red">/bin/mkd</font>
+</pre>
 
 - 명령이 존재하지 않거나 실행할 수 없는 파일을 참조하기 때문에 명령이 유효하지 않을 수 있습니다. 명령이 유효해지면 다른 색으로 표시됩니다.
 
-<pre> > <font color="blue">/bin/mkdir</font> </pre>
+<pre>
+> <font color="blue">/bin/mkdir</font>
+</pre>
  
 -  피쉬(fish)는 입력할 때 유효한 파일 경로에 밑줄을 긋습니다.
 
-<pre> > <font color="purple">cat</font> <font color="blue"><u>~/somefi</u></font> </pre>
+<pre>
+> <font color="purple">cat</font> <font color="blue"><u>~/somefi</u></font>
+</pre>
  
 - 이것은 'somefi'로 시작하는 파일이 있다는 것을 의미하며, 이는 입력할 때 유용한 피드백입니다.
 - 이러한 색상과 그 이상은 fish_config 를 실행하거나 변수를 직접 수정하여 변경할 수 있습니다.
@@ -90,7 +96,7 @@ Some File
 - 모든 JPEG 파일(*.jpg)을 나열하려면 다음과 같이하십시오.
 
 <pre>
-> ls *.jpg
+> <font color="purple">ls</font> <font color="blue">*.jpg</font>
  lena.jpg
  meena.jpg
  산타 마리아.jpg
@@ -99,7 +105,7 @@ Some File
 - 여러 개의 와일드 카드를 포함 할 수도 있습니다.
 
 <pre>
-> ls l*.p*
+> <font color="purple">ls</font> <font color="blue">l*.p*</font>
  lena.png
  lesson.pdf
 </pre>
@@ -107,7 +113,7 @@ Some File
 - 특히 재귀적으로 디렉토리를 검색하는 재귀적 와일드 카드(**)가 강력합니다.
 
 <pre>
-> ls /var/**.log
+> <font color="purple">ls</font> <font color="blue">/var/**.log</font>
  /var/log/system.log
  /var/run/sntp.log
 </pre>
@@ -118,7 +124,7 @@ Some File
 - 일반적인 세로 막대(\|)를 사용하여 명령 사이를 파이프 할 수 있습니다.
 
 <pre>
-> echo hello world | wc
+> <font color="purple">echo</font> <font color="blue">hello world</font> | <font color="blue">wc</font>
        1       2      12
 </pre>
 
@@ -126,16 +132,21 @@ Some File
 - 다른 쉘과는 달리 stderr은 캐럿(^)으로 리디렉션됩니다.
 
 <pre>
-> grep fish < /etc/shells > ~/output.txt ^ ~/errors.txt
+> <font color="purple">grep</font> <font color="blue">fish</font> < /etc/shells > ~/output.txt ^ ~/errors.txt
 </pre>
 
 ### 자동 제안 (Auto-suggestions)
 - 피쉬(fish)는 사용자가 입력할 때 명령(command)을 제안하고, 커서 오른쪽에있는 제안을 회색으로 표시합니다.
 
-<pre> > <font color="red">/bin/h</font><font color="grey">ostname</font> </pre>
+<pre>
+> <font color="red">/bin/h</font>ostname
+</pre>
 
 - 피쉬는 경로 및 옵션에 대해 알고 있습니다.
-\> <font color="purple">grep</font> <font color="blue">--i</font><font color="grey">gnore-case</font>
+
+<pre>
+> <font color="purple">grep</font> <font color="blue">--i</font>gnore-case
+<pre>
 
 - 그리고 명령을 한 번 입력하면 기록(history)도 몇자를 입력하여 명령을 다시 불러올 수 있습니다.
 
