@@ -603,14 +603,14 @@ New Prompt %
 ### 범용 변수 (Universal Variables)
 
 <pre>
-> set -U EDITOR vim
+> <font color="purple">set</font> <font color="blue">-U EDITOR vim</font>
 </pre>
 
 - 이제 다른 쉘에서 다음 명령을 실행하여 보십시오.
 
 <pre>
-> echo $EDITOR
-vim
+> <font color="purple">echo</font> $EDITOR
+<font color="purple">vim</font>
 </pre>
 
 ### 피쉬를 사용하실 준비되셨습니까?!
