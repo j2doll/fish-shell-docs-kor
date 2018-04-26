@@ -12,7 +12,7 @@
 
 > *[라이선스](https://j2doll.github.io/fish-shell-docs-kor/license-fish/)*
 
-## 피쉬 쉘 (Fish Shell) 자습서 한글 번역
+## 피쉬 쉘 (Fish Shell) 자습서 [입문, 강좌, 소개, 튜토리얼]
 
 ### 왜 피쉬(fish)인가?
 > [Fish:피쉬 또는 Fish Shell:피쉬 쉘 로 발음합니다. 원하실 경우 ‘물고기’로 불러도 됩니다]
