@@ -10,276 +10,284 @@
 
 > *[FAQ](https://j2doll.github.io/fish-shell-docs-kor/faq/)*
 
-> *[<b>라이선스</b>](https://j2doll.github.io/fish-shell-docs-kor/license-fish/)*
+> *[<b>>라이센스</b>](https://j2doll.github.io/fish-shell-docs-kor/license-fish/)*
 
-## Licenses for fish
-fish Copyright © 2005-2009 Axel Liljencrantz. fish is released under the GNU General Public License, version 2.
+## 피쉬를 위한 >라이센스
 
-fish includes other code licensed under the GNU General Public License, version 2, including GNU printf:
+피쉬 저작권 © 2005-2009 Axel Liljencrantz.
 
-Copyright © 1990-2007 Free Software Foundation, Inc. Printf (from GNU Coreutils 6.9) is released under the GNU General Public License, version 2.
+피쉬는 GNU General Public License 버전 2에 따라 공개됩니다.
 
-The GNU General Public License agreement follows.
+피쉬에는 GNU printf를 포함한 GNU General Public License 버전 2에서 사용 허가 된 다른 코드가 포함되어 있습니다.
 
-## GNU GENERAL PUBLIC LICENSE
-Version 2, June 1991
+저작권 © 1990-2007 자유 소프트웨어 재단, Inc.
 
-Copyright (C) 1989, 1991 Free Software Foundation, Inc.
-51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+Printf (GNU Coreutils 6.9)는 GNU General Public License 버전 2에 따라 배포됩니다.
 
-Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed.
+GNU 일반 공중 사용 허가 계약이 이어집니다.
 
-## Preamble
+## GNU 일반 공중 사용 허가서 (GNU GENERAL PUBLIC LICENSE)
 
-The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change free software - to make sure the software is free for all its users. This General Public License applies to most of the Free Software Foundation's software and to any other program whose authors commit to using it. (Some other Free Software Foundation software is covered by the GNU Library General Public License instead.) You can apply it to your programs, too.
+버전 2, 1991 년 6 월
 
-When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
+Copyright (C) 1989, 1991 자유 소프트웨어 재단
+51 Franklin Street, 5 층, Boston, MA 02110-1301, 미국
 
-To protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the software, or if you modify it.
+누구나 이 라이센스 문서의 사본을 그대로 복사 및 배포 할 수 있지만 변경할 수 없습니다.
 
-For example, if you distribute copies of such a program, whether gratis or for a fee, you must give the recipients all the rights that you have. You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights.
+## 전문
 
-We protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.
+대부분의 소프트웨어에 대한 라이센스는 소프트웨어를 공유하고 변경할 수있는 자유를 앗아 갈 수 있도록 고안되었습니다. 반대로 GNU 일반 공중 사용 허가서는 자유 소프트웨어를 공유하고 변경하는 자유를 보장하여 소프트웨어가 모든 사용자에게 무료라는 것을 보장하기위한 것입니다. 이 일반 공중 사용 허가서는 대부분의 자유 소프트웨어 재단 소프트웨어 및 저작자가 사용하는 다른 프로그램에 적용됩니다. (일부 다른 자유 소프트웨어 재단 소프트웨어는 GNU 도서관 일반 공중 사용 허가서 (GPL)에 대신 포함됩니다.) 프로그램에도 적용할 수 있습니다.
 
-Also, for each author's protection and ours, we want to make certain that everyone understands that there is no warranty for this free software. If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors' reputations.
+우리가 자유 소프트웨어에 대해 말할 때, 우리는 가격이 아닌 자유를 언급합니다. 우리의 일반 공중 >라이센스는 자유 소프트웨어 복사본을 자유롭게 배포 할 수 있도록하고 (원하는 경우이 서비스에 대해 요금을 부과 할 수 있음), 소스 코드를 받거나 원하는 경우 구할 수 있으며, 새로운 무료 프로그램에서 소프트웨어를 사용하거나 조각을 사용하십시오. 그리고 당신은 당신이이 일을 할 수 있다는 것을 알고 있습니다.
 
-Finally, any free program is threatened constantly by software patents. We wish to avoid the danger that redistributors of a free program will individually obtain patent licenses, in effect making the program proprietary. To prevent this, we have made it clear that any patent must be licensed for everyone's free use or not licensed at all.
+귀하의 권리를 보호하기 위해, 우리는 누군가가 귀하에게 이러한 권리를 부정하거나 권리를 포기하도록 요구하지 못하도록 제한해야합니다. 이러한 제한 사항은 귀하가 소프트웨어 사본을 배포하거나 수정 한 경우 귀하에 대한 특정 책임을 의미합니다.
 
-The precise terms and conditions for copying, distribution and modification follow.
+예를 들어 무료 또는 유료로 그러한 프로그램의 사본을 배포하는 경우 수령인에게 가지고 있는 모든 권리를 제공해야합니다. 그들도 소스 코드를 받거나 얻을 수 있어야 합니다. 그리고 당신은 그들에게 그들의 권리를 알 수 있도록이 조건들을 보여 주어야합니다.
 
-## TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+우리는 (1) 소프트웨어를 저작권으로 보호하고 (2) 소프트웨어를 복사, 배포 및 / 또는 수정할 수있는 법적 권한을 부여하는이 라이센스를 제공하는 두 단계로 귀하의 권리를 보호합니다.
 
-This License applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The "Program", below, refers to any such program or work, and a "work based on the Program" means either the Program or any derivative work under copyright law: that is to say, a work containing the Program or a portion of it, either verbatim or with modifications and/or translated into another language. (Hereinafter, translation is included without limitation in the term "modification".) Each licensee is addressed as "you".
+또한 각 저자의 보호와 우리의 목적을 위해이 무료 소프트웨어에 대한 보증이 없음을 모든 사람이 이해하고 있음을 확인하고자합니다. 소프트웨어가 다른 사람에 의해 수정되어 전달 된 경우, 수령인은 소유하고있는 내용이 원본이 아니므로 다른 사람이 제기 한 문제는 원래 작성자의 평판에 반영되지 않습니다.
 
-Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running the Program is not restricted, and the output from the Program is covered only if its contents constitute a work based on the Program (independent of having been made by running the Program). Whether that is true depends on what the Program does.
+마지막으로, 무료 프로그램은 소프트웨어 특허에 의해 끊임없이 위협 받고 있습니다. 우리는 무료 프로그램을 재배포하는 사람들이 특허 라이센스를 개별적으로 획득하여 프로그램 독점권을 행사할 위험을 피하고자 합니다. 이를 방지하기 위해 우리는 모든 특허가 모든 사람의 자유 사용을 위해 허가 받아야 하거나 전혀 라이센스가 부여되지 않아야 함을 분명히했습니다.
 
-You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of this License along with the Program.
+복사, 배포 및 수정에 대한 정확한 조건이 준수됩니다.
 
-You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.
+## 복제, 배포 및 수정을 위한 조건 (TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION)
 
-You may modify your copy or copies of the Program or any portion of it, thus forming a work based on the Program, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:
+본 >라이센스는이 일반 공중 >라이센스의 조건에 따라 배포 될 수 있다고 저작권 보유자가 고지를 한 모든 프로그램이나 기타 저작물에 적용된다. "프로그램", 이하, 이러한 프로그램 또는 직장, 및 "프로그램에 기초한 일"을 의미는 프로그램 또는 저작권법 파생 저작물을 의미한다 : 즉, 말하자면 프로그램 또는 일부를 함유하는 직장 그것은 축 어적으로 또는 수정으로 및 / 또는 다른 언어로 번역됩니다. (이하 "번역"은 "수정"이라는 용어에 제한없이 포함됩니다.) 각 라이센스 사용자는 "귀하"로 취급됩니다.
 
-You must cause the modified files to carry prominent notices stating that you changed the files and the date of any change.
-You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License.
-If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the most ordinary way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this License. (Exception: if the Program itself is interactive but does not normally print such an announcement, your work based on the Program is not required to print an announcement.)
-These requirements apply to the modified work as a whole. If identifiable sections of that work are not derived from the Program, and can be reasonably considered independent and separate works in themselves, then this License, and its terms, do not apply to those sections when you distribute them as separate works. But when you distribute the same sections as part of a whole which is a work based on the Program, the distribution of the whole must be on the terms of this License, whose permissions for other licensees extend to the entire whole, and thus to each and every part regardless of who wrote it.
+복사, 배포 및 수정 이외의 활동은 본 라이센스의 적용을받지 않습니다. 그들은 그 범위 밖에있다. 프로그램을 실행하는 단계는 한정되지 않고, 그 내용은 프로그램에 기초하여 작업 (프로그램을 실행하는 것에 의해 생성 된 독립적 인)를 구성하는 경우에만 프로그램으로부터의 출력은 커버된다. 그것이 사실인지 여부는 프로그램의 기능에 따라 다릅니다.
 
-Thus, it is not the intent of this section to claim rights or contest your rights to work written entirely by you; rather, the intent is to exercise the right to control the distribution of derivative or collective works based on the Program.
+귀하는 프로그램의 소스 코드를 그대로 받아 그대로 복사 및 배포 할 수 있습니다. 단, 각 복사본에 적절한 저작권 고지 및 보증 면책 조항을 눈에 잘 띄게 적절하게 게시해야합니다. 본 사용권 및 보증의 부재에 대해 언급 한 모든 통지를 그대로 유지하십시오. 본 프로그램의 다른 모든 수신자에게 본 프로그램과 함께 본 사용권의 사본을 제공 할 수 있습니다.
 
-In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.
+사본을 전송하는 물리적 행위에 대해 수수료를 부과 할 수 있으며, 귀하는 귀하의 선택에 따라 수수료 대신 유상 보증을 제공 할 수 있습니다.
 
-You may copy and distribute the Program (or a work based on it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you also do one of the following:
+귀하는 본 프로그램 또는 그 일부의 사본을 수정하여 프로그램을 기반으로 저작물을 구성하고 위의 제 1 조의 조건에 따라 이러한 수정본 또는 저작물을 복사 및 배포 할 수 있습니다. 단, 귀하는 이러한 모든 조건을 충족해야합니다 :
 
-Accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,
-Accompany it with a written offer, valid for at least three years, to give any third party, for a charge no more than your cost of physically performing source distribution, a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,
-Accompany it with the information you received as to the offer to distribute corresponding source code. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form with such an offer, in accord with Subsection b above.)
-The source code for a work means the preferred form of the work for making modifications to it. For an executable work, complete source code means all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the executable. However, as a special exception, the source code distributed need not include anything that is normally distributed (in either source or binary form) with the major components (compiler, kernel, and so on) of the operating system on which the executable runs, unless that component itself accompanies the executable.
+수정 된 파일은 파일을 변경했으며 변경 날짜가 명시된 주요 통지를 전송해야합니다.
+귀하는 배포 또는 게시하거나 본 프로그램 또는 그 일부로부터 전체적으로 또는 부분적으로 포함되거나 이로부터 파생 된 저작물을 본 >라이센스의 조건에 따라 제 3 자에게 무료로 전체 >라이센스를 부여해야합니다.
+수정 된 프로그램이 정상적으로 대화식으로 명령을 읽는 경우, 대화 형으로 사용하기 시작한 경우 가장 일반적인 방법으로 명령을 인쇄하여 적절한 저작권 고지 및 보증이 없음을 포함하는 공지 사항을 인쇄하거나 표시해야합니다 (또는 귀하가 보증을 제공한다고 말하면서) 사용자는 이러한 조건 하에서 프로그램을 재배포하고 사용자에게 본 라이센스의 사본을 보는 방법을 알려줄 수 있습니다. (예외 : 프로그램 자체는 대화 형이지만 일반적으로 그러한 공지 사항을 인쇄하지 않는 경우, 프로그램을 기반으로하는 작업은 공지 사항을 인쇄 할 필요가 없습니다.)
+이러한 요구 사항은 수정 된 저작물 전체에 적용됩니다. 해당 저작물의 식별 가능한 섹션이 프로그램에서 파생되지 않고 독립적으로 독립적 인 저작물로 간주 될 수있는 경우, 본 라이센스 및 조항은 귀하가 별도로 저작물을 배포 할 때 해당 섹션에 적용되지 않습니다. 그러나 프로그램을 기반으로하는 저작물 전체에 동일한 섹션을 배포하는 경우 전체 라이센스의 배포는 본 라이센스의 조건에 따라야하며, 다른 라이센스 제공자에 대한 권한은 전체 라이센스에 적용되므로 각 라이센스에 적용됩니다 그리고 누가 그것을 썼는지에 관계없이 모든 부분.
 
-If distribution of executable or object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place counts as distribution of the source code, even though third parties are not compelled to copy the source along with the object code.
+따라서이 섹션의 목적은 귀하가 전적으로 귀하가 작성한 권리를 주장하거나 귀하의 권리를 행사하는 것이 아닙니다. 오히려 프로그램을 기반으로하는 파생물이나 집단 작업의 배포를 통제 할 수있는 권리를 행사하려는 의도가 있습니다.
 
-You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense or distribute the Program is void, and will automatically terminate your rights under this License. However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance.
-You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. These actions are prohibited by law if you do not accept this License. Therefore, by modifying or distributing the Program (or any work based on the Program), you indicate your acceptance of this License to do so, and all its terms and conditions for copying, distributing or modifying the Program or works based on it.
-Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties to this License.
-If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Program at all. For example, if a patent license would not permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Program.
+또한 저장 매체 나 배포 매체의 볼륨에서 본 프로그램과 함께 프로그램을 기반으로하지 않는 다른 저작물 (또는 프로그램을 기반으로하는 저작물)을 단순히 집계한다고해서 다른 저작물이 본 >라이센스의 범위에 포함되지는 않습니다.
 
-If any portion of this section is held invalid or unenforceable under any particular circumstance, the balance of the section is intended to apply and the section as a whole is intended to apply in other circumstances.
+귀하는 다음 중 하나를 수행한다는 조건하에, 제 1 항 및 제 2 항의 조건에 따라 프로그램 (또는 제 2 조에 의거 한 저작물)을 오브젝트 코드 또는 실행 형식으로 복사하여 배포 할 수 있습니다.
 
-It is not the purpose of this section to induce you to infringe any patents or other property right claims or to contest validity of any such claims; this section has the sole purpose of protecting the integrity of the free software distribution system, which is implemented by public license practices. Many people have made generous contributions to the wide range of software distributed through that system in reliance on consistent application of that system; it is up to the author/donor to decide if he or she is willing to distribute software through any other system and a licensee cannot impose that choice.
+위의 섹션 1 및 2의 조건에 따라 소프트웨어 교환을 위해 일반적으로 사용되는 매체를 통해 배포해야하는 해당 기계 판독 가능 소스 코드를 함께 제공하십시오. 또는,
+최소한 3 년 동안 유효한 제 3 자에게 제 3 자에게 제공하는 서면 제안을 물리적으로 수행하는 소스 배포 비용, 해당 소스 코드의 기계 가독성있는 완전한 사본, 배포 할 비용 소프트웨어 교환을 위해 통상적으로 사용되는 매체에 대한 상기 섹션 1 및 2의 조건; 또는,
+상응하는 소스 코드 배포 제안과 관련하여 귀하가받은 정보와 함께 제공하십시오. (이 대안은 비상업적 인 배포에만 허용되며 위의 b 절에 따라 오브젝트 코드 나 실행 가능한 형태로 프로그램을받은 경우에만 허용됩니다.)
+저작물의 소스 코드는 해당 저작물을 수정하기위한 기본 형식을 의미합니다. 실행 가능한 작업의 경우 완전한 소스 코드는 포함 된 모든 모듈의 모든 소스 코드와 관련된 인터페이스 정의 파일과 실행 파일의 컴파일 및 설치를 제어하는 ​​데 사용되는 스크립트를 의미합니다. 그러나 예외적으로, 배포 된 소스 코드는 실행 파일이 실행되는 운영 체제의 주요 구성 요소 (컴파일러, 커널 등)와 함께 정상적으로 배포되는 (소스 또는 바이너리 형식으로) 해당 구성 요소 자체가 실행 파일을 수반하지 않는 한.
 
-This section is intended to make thoroughly clear what is believed to be a consequence of the rest of this License.
+지정된 장소에서 복사에 대한 액세스 권한을 제공하여 실행 파일 또는 오브젝트 코드를 배포 한 경우 동일한 장소에서 소스 코드를 복사 할 수있는 동등한 권한을 제공하면 제 3자가 해당 소스 코드를 복사해야하는 경우에도 소스 코드 배포로 간주됩니다. 소스 코드와 함께.
 
-If the distribution and/or use of the Program is restricted in certain countries either by patents or by copyrighted interfaces, the original copyright holder who places the Program under this License may add an explicit geographical distribution limitation excluding those countries, so that distribution is permitted only in or among countries not thus excluded. In such case, this License incorporates the limitation as if written in the body of this License.
-The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+귀하는 본 라이센스에 명시 적으로 제공된 경우를 제외하고 프로그램을 복사, 수정, 재 라이센스 부여 또는 배포 할 수 없습니다. 프로그램을 복사, 수정, 서브 라이센스 또는 배포하려는 시도는 무효이며 본 라이센스에 따라 귀하의 권리가 자동 종료됩니다. 그러나 본 라이센스에 의거하여 귀하로부터 사본 또는 권리를 수령 한 당사자는 해당 당사자가 완전히 준수하는 동안 라이센스가 종료되지 않습니다.
+귀하는 서명하지 않았으므로이 라이센스를 수락 할 필요가 없습니다. 그러나 프로그램이나 그 파생 제품을 수정하거나 배포 할 수있는 권한은 귀하에게 부여되지 않습니다. 귀하가 본 라이센스를 수락하지 않으면 이러한 행위는 법으로 금지되어 있습니다. 따라서 프로그램 (또는 프로그램을 기반으로하는 저작물)을 수정하거나 배포함으로써 귀하는 본 사용권 계약 및 프로그램 사용 권한을 기준으로 본 프로그램 또는 프로그램의 복사, 배포 또는 수정에 대한 모든 조건을 수락 함을 나타냅니다.
+프로그램 (또는 프로그램을 기반으로 한 모든 저작물)을 재배포 할 때마다 수신자는 본 사용 조건에 따라 본 프로그램을 복제, 배포 또는 수정할 수있는 라이센스를 원본 라이센스 제공자로부터 자동으로 수령합니다. 수령인이 여기에 부여 된 권리 행사에 대한 추가 제한을 부과해서는 안됩니다. 귀하는 제 3 자의 본 라이센스에 대한 준수를 집행 할 책임이 없습니다.
 
-Each version is given a distinguishing version number. If the Program specifies a version number of this License which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of this License, you may choose any version ever published by the Free Software Foundation.
+법원 판결이나 특허 침해 혐의 또는 다른 이유로 (특허 문제에 국한되지 않음) 법원 명령, 계약 또는 기타 방법으로이 >라이센스의 조건에 위배되는 조건이 부과 된 경우, 그들은이 라이센스의 조건에서 당신을 변명하지 않습니다. 귀하가 본 라이센스 및 기타 관련 의무에 따라 귀하의 의무를 동시에 충족시킬 수 있도록 배포 할 수없는 경우 귀하는 본 프로그램을 전혀 배포 할 수 없습니다. 예를 들어, 특허 라이센스가 귀하를 통해 직접 또는 간접적으로 사본을받는 모든 사람이 특허 사용료를 무료로 재배포하는 것을 허용하지 않으면 본 라이센스와 본 라이센스를 모두 만족시킬 수있는 유일한 방법은 프로그램.
 
-If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.
+특정 상황에서이 섹션의 일부가 유효하지 않거나 집행 할 수없는 경우, 섹션의 균형이 적용되며 섹션 전체가 다른 상황에서 적용되도록되어 있습니다.
 
-NO WARRANTY
+이 섹션의 목적은 귀하가 특허 또는 기타 재산권에 대한 권리를 침해하거나 그러한 주장의 타당성을 주장하도록 유도하는 것이 아닙니다. 이 섹션은 공개 라이센스 관행에 의해 구현되는 자유 소프트웨어 배포 시스템의 무결성을 보호하기위한 유일한 목적입니다. 많은 사람들이 시스템의 일관된 응용에 의존하여 해당 시스템을 통해 배포되는 광범위한 소프트웨어에 많은 기여를했습니다. 저자 / 기증자는 다른 시스템을 통해 소프트웨어를 배포 할 의사가 있는지 여부를 결정해야하며 라이센스 사용자는 그러한 선택을 할 수 없습니다.
 
-BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
-IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+본 조항은 본 라이센스의 나머지 조항의 결과로 간주되는 것을 철저히 명확히하기위한 것입니다.
 
-## License for PCRE2
+특정 국가에서 특허 나 저작권이있는 인터페이스로 프로그램의 배포 및 / 또는 사용이 제한되는 경우 본 라이센스하에 본 프로그램을 배치 한 원본 저작권 보유자는 해당 국가를 제외한 명시적인 지리적 분배 제한을 추가하여 배포가 허용 될 수 있습니다 그렇게 배제되지 않은 국가들에서만 또는 그 국가들 사이에서. 이 경우, 본 라이센스는 본 라이센스 본문에 쓰여진 것처럼 제한을 통합합니다.
+자유 소프트웨어 재단은 GPL의 수정 버전 및 / 또는 새 버전을 수시로 게시 할 수 있습니다. 이러한 새 버전은 현재 버전과 비슷한 정신을 갖지만 새로운 문제 또는 우려 사항을 해결하기 위해 세부 사항이 다를 수 있습니다.
 
-fish contains code from the PCRE2 library to support regular expressions. This code, created by Philip Hazel, is distributed under the terms of the BSD license. Copyright © 1997-2015 University of Cambridge.
+각 버전에는 고유 한 버전 번호가 부여됩니다. 프로그램에 적용되는 본 라이센스의 버전 번호와 "이후 버전"이 명시되어있는 경우, 해당 버전 또는 자유 소프트웨어 재단에서 발행 한 이후 버전의 이용 약관을 따르는 옵션이 있습니다. 프로그램이 본 사용권 계약의 버전 번호를 지정하지 않은 경우, 귀하는 자유 소프트웨어 재단이 발행 한 모든 버전을 선택할 수 있습니다.
 
-The BSD license follows.
+프로그램의 일부를 배포 조건이 다른 다른 무료 프로그램에 통합하려는 경우 작성자에게 허가를 요청하십시오. 자유 소프트웨어 재단이 저작권을 소유 한 소프트웨어의 경우 자유 소프트웨어 재단에 기명하십시오. 우리는 때때로 이것을 예외로합니다. 우리의 결정은 자유 소프트웨어의 모든 파생물의 자유로운 지위를 유지하고 일반적으로 소프트웨어의 공유 및 재사용을 촉진하는 두 가지 목표에 따라 결정될 것입니다.
 
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+무보증 (NO WARRANTY)
 
-Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-Neither the name of the University of Cambridge nor the names of any contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+프로그램에 무료로 라이센스가 부여되기 때문에 해당 법률에서 허용하는 한도 내에서 프로그램에 대해 어떠한 보증도 제공되지 않습니다. 명시 적으로 상품성 및 특정 목적에의 적합성에 대한 묵시적 보증을 포함하여 (단, 이에 한하지 않음) 명시 적 또는 묵시적으로 어떠한 보증도없이 "있는 그대로"이 프로그램을 "저작권 소유자 및 / 또는 기타 당사자에게 제공"한다고 명시한 경우를 제외하고 . 프로그램의 품질 및 성능에 대한 전적인 책임은 귀하에게 있습니다. 프로그램에 결함이있는 것으로 밝혀지면 모든 필요한 서비스, 수리 또는 수정 비용을 부담해야합니다.
+관련 법률에 의해 요구되거나 서면 동의를 얻은 경우를 제외하고 어떠한 저작권 소유자 또는 위에서 수정 된 프로그램을 수정 및 / 또는 재배포하는 다른 당사자는 귀하에게 일반, 특수, 우발적 또는 특수 적 손해를 포함하여 모든 손해 프로그램을 사용하거나 사용하지 못함으로 인해 발생하는 결과적 손상 (데이터 나 데이터의 손실이나 부정확 한 결과 또는 귀하 또는 제 3 자에 의한 손실 또는 다른 프로그램과의 작동에 실패한 경우 포함) 해당 소유자 또는 다른 당사자가 그러한 손해의 가능성을 사전에 알고있는 경우.
 
-## License for wcslcpy and code derived from tmux
+## PCRE2를 위한 >라이센스
 
-fish also contains small amounts of code under the OpenBSD license, namely a version of the function strlcpy, modified for use with wide character strings. This code is copyrighted by Todd C. Miller (1998). It also contains code from tmux, copyrighted by Nicholas Marriott nicm@users.sourceforge.net (2007), and made available under an identical license.
+fish에는 PCRE2 라이브러리의 코드가 들어있어 정규 표현식을 지원합니다. Philip Hazel이 만든이 코드는 BSD 라이센스의 조건에 따라 배포됩니다. Copyright © 1997-2015 Cambridge University.
 
-The OpenBSD license is included below.
+BSD 라이센스는 다음과 같습니다.
 
-Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+소스 또는 이진 형식의 재배포 및 사용은 수정 여부와 상관없이 다음 조건이 충족되는 경우 허용됩니다.
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+소스 코드 재배포시 위의 저작권 고지, 본 조건 목록 및 다음 면책 조항을 포함해야합니다.
+바이너리 형식의 재배포는 배포와 함께 제공된 설명서 및 / 또는 기타 자료에 위의 저작권 공지,이 조건 목록 및 다음 면책 조항을 재현해야합니다.
+사전 서면 허가없이이 소프트웨어에서 파생 된 제품을 보증하거나 홍보하기 위해 켐브리지 대학의 이름이나 기여자의 이름을 사용할 수 없습니다.
+이 소프트웨어는 저작권 소유자 및 기여자가 "있는 그대로"제공되며, 상품성 및 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하여 (단, 이에 한하지 않음) 명시 적 또는 묵시적 보증이 배제됩니다. 저작권 소유자 또는 기여자는 직접, 간접적 인, 우발적 인, 우발적 인, 필연적 인 또는 필연적 인 손해 (대체 제품 또는 서비스의 조달, 사용, 데이터 또는 이익의 손실을 포함하되 이에 국한되지 않음)에 대해 책임을지지 않습니다. 또는 비즈니스 중단), 계약 위반, 엄격한 책임 또는 불법 행위 (태만 또는 기타 포함)에 관계없이 책임을지지 않습니다. 단, 이러한 경우에는 그러한 손해의 가능성을 사전에 알고 있던 경우에도 마찬가지입니다.
 
-## License for glibc
+## wcslcpy 및 tmux에서 파생 된 코드의 라이센스
 
-Fish contains code from the glibc library, namely the wcstok function. This code is licensed under the LGPL, version 2 or later. Version 2 of the LPGL license agreement is included below.
+피쉬는 또한 OpenBSD 라이센스하에 적은 양의 코드, 즉 넓은 문자열과 함께 사용하기 위해 수정 된 함수 strlcpy 버전을 포함합니다. 이 코드는 Todd C. Miller (1998)에 저작권이 있습니다. 또한 Nicholas Marriott nicm@users.sourceforge.net (2007)이 저작권을 소유 한 tmux의 코드를 포함하고 있으며 동일한 라이센스하에 사용 가능합니다.
 
-## GNU LESSER GENERAL PUBLIC LICENSE
+OpenBSD 라이센스는 아래에 포함되어 있습니다.
 
-Version 2.1, February 1999
+위의 저작권 고지 및이 권한 고지가 모든 사본에 나타나는 경우,이 소프트웨어를 유료로 또는 비 목적으로 사용, 복사, 수정 및 배포 할 수있는 권한이 부여됩니다.
 
-Copyright (C) 1991, 1999 Free Software Foundation, Inc.
-51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+이 소프트웨어는 "있는 그대로"제공되며 저자는 상품성 및 적합성에 대한 묵시적인 보증을 포함하여이 소프트웨어와 관련한 모든 보증을 부인합니다. 어떠한 경우에도 저자는 계약이나 과실 또는 기타 치열한 행위가 발생했는지 여부와 관계없이 사용, 데이터 또는 이익의 손실로 인해 발생한 특별, 직접, 간접적 또는 파생적 손해 또는 손해에 대해 책임을지지 않습니다. 이 소프트웨어의 사용 또는 성능과 관련하여.
 
-Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed.
-[This is the first released version of the Lesser GPL. It also counts as the successor of the GNU Library Public License, version 2, hence the version number 2.1.]
+## glibc 라이센스
 
-## Preamble
+Fish에는 glibc 라이브러리의 코드, 즉 wcstok 함수가 들어 있습니다. 이 코드는 LGPL 버전 2 이상에서 사용이 허가됩니다. LPGL 라이센스 계약 버전 2는 아래에 포함되어 있습니다.
 
-The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public Licenses are intended to guarantee your freedom to share and change free software - to make sure the software is free for all its users.
+## GNU 더 작은 일반 공중 사용 허가서(GNU LESSER GENERAL PUBLIC LICENSE)
 
-This license, the Lesser General Public License, applies to some specially designated software packages - typically libraries - of the Free Software Foundation and other authors who decide to use it. You can use it too, but we suggest you first think carefully about whether this license or the ordinary General Public License is the better strategy to use in any particular case, based on the explanations below.
+버전 2.1, 1999 년 2 월
 
-When we speak of free software, we are referring to freedom of use, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish); that you receive source code or can get it if you want it; that you can change the software and use pieces of it in new free programs; and that you are informed that you can do these things.
+Copyright (C) 1991, 1999 자유 소프트웨어 재단
+51 Franklin St, Fifth Floor, Boston 02110-1301 미국
 
-To protect your rights, we need to make restrictions that forbid distributors to deny you these rights or to ask you to surrender these rights. These restrictions translate to certain responsibilities for you if you distribute copies of the library or if you modify it.
+모든 사람이 축 어적 사본을 복사하여 배포 할 수 있습니다.
+이 라이센스 문서의 변경은 허용되지 않습니다.
+[이것은 Lesser GPL의 첫 번째 릴리스 버전입니다. 또한 GNU Library Public License 버전 2의 후속 버전이기도하므로 버전 번호 2.1로 간주됩니다.]
 
-For example, if you distribute copies of the library, whether gratis or for a fee, you must give the recipients all the rights that we gave you. You must make sure that they, too, receive or can get the source code. If you link other code with the library, you must provide complete object files to the recipients, so that they can relink them with the library after making changes to the library and recompiling it. And you must show them these terms so they know their rights.
+## 전문
 
-We protect your rights with a two-step method: (1) we copyright the library, and (2) we offer you this license, which gives you legal permission to copy, distribute and/or modify the library.
+대부분의 소프트웨어에 대한 라이센스는 소프트웨어를 공유하고 변경할 수있는 자유를 앗아 갈 수 있도록 고안되었습니다. 반대로 GNU 일반 공중 라이선스는 자유 소프트웨어를 공유하고 변경하는 자유를 보장하여 소프트웨어가 모든 사용자에게 무료로 제공되도록하기위한 것입니다.
 
-To protect each distributor, we want to make it very clear that there is no warranty for the free library. Also, if the library is modified by someone else and passed on, the recipients should know that what they have is not the original version, so that the original author's reputation will not be affected by problems that might be introduced by others.
+이 라이센스 인 Lesser General Public License는 Free Software Foundation 및 기타 저작자를 사용하기로 결정한 일부 특수 소프트웨어 패키지 (일반적으로 라이브러리)에 적용됩니다. 당신도이 소프트웨어를 사용할 수는 있지만, 아래의 설명에 따라이 라이센스 또는 일반적인 일반 공중 사용 허가서가 어떤 특별한 경우에 사용하는 것이 더 나은 전략인지에 대해 먼저 신중하게 생각해 보는 것이 좋습니다.
 
-Finally, software patents pose a constant threat to the existence of any free program. We wish to make sure that a company cannot effectively restrict the users of a free program by obtaining a restrictive license from a patent holder. Therefore, we insist that any patent license obtained for a version of the library must be consistent with the full freedom of use specified in this license.
+우리가 자유 소프트웨어에 대해 말할 때, 우리는 가격이 아니라 사용의 자유를 언급합니다. 우리의 일반 공중 라이선스는 자유 소프트웨어의 복사본을 자유롭게 배포 할 수 있도록 (그리고 원하는 경우이 서비스에 대해 요금을 부과 할 수 있도록) 설계되었습니다. 소스 코드를 받거나 원하는 경우 얻을 수 있습니다. 새로운 자유 프로그램에서 소프트웨어를 변경하고 그 소프트웨어를 사용할 수 있습니다. 그리고 당신은 당신이 이러한 일을 할 수 있음을 알게됩니다.
 
-Most GNU software, including some libraries, is covered by the ordinary GNU General Public License. This license, the GNU Lesser General Public License, applies to certain designated libraries, and is quite different from the ordinary General Public License. We use this license for certain libraries in order to permit linking those libraries into non-free programs.
+귀하의 권리를 보호하기 위해 우리는 배포자가 귀하에게 이러한 권리를 거부하거나 귀하가 이러한 권리를 포기하도록 요구하지 못하도록 제한해야합니다. 이러한 제한 사항은 귀하가 도서관의 사본을 배포하거나 귀하가 도서관을 수정하는 경우 귀하에 대한 특정 책임을 의미합니다.
 
-When a program is linked with a library, whether statically or using a shared library, the combination of the two is legally speaking a combined work, a derivative of the original library. The ordinary General Public License therefore permits such linking only if the entire combination fits its criteria of freedom. The Lesser General Public License permits more lax criteria for linking other code with the library.
+예를 들어 무료 또는 유료로 도서관의 사본을 배포하는 경우 수령인에게 우리가 제공 한 모든 권리를 제공해야합니다. 그들도 소스 코드를 받거나 얻을 수 있어야합니다. 라이브러리와 다른 코드를 링크하는 경우 라이브러리를 변경하고 다시 컴파일 한 후 라이브러리와 다시 연결할 수 있도록 수신자에게 완전한 오브젝트 파일을 제공해야합니다. 그리고 당신은 그들에게 그들의 권리를 알 수 있도록이 조건들을 보여 주어야합니다.
 
-We call this license the "Lesser" General Public License because it does Less to protect the user's freedom than the ordinary General Public License. It also provides other free software developers Less of an advantage over competing non-free programs. These disadvantages are the reason we use the ordinary General Public License for many libraries. However, the Lesser license provides advantages in certain special circumstances.
+우리는 2 단계 방법으로 귀하의 권리를 보호합니다 : (1) 도서관에 저작권을 부여하고, (2) 귀하에게 라이브러리를 복사, 배포 및 / 또는 수정할 수있는 법적 권한을 부여하는 본 라이센스를 귀하에게 제공합니다.
 
-For example, on rare occasions, there may be a special need to encourage the widest possible use of a certain library, so that it becomes a de-facto standard. To achieve this, non-free programs must be allowed to use the library. A more frequent case is that a free library does the same job as widely used non-free libraries. In this case, there is little to gain by limiting the free library to free software only, so we use the Lesser General Public License.
+각 배포자를 보호하기 위해 무료 라이브러리에 대한 보증이 없음을 분명히 밝힙니다. 또한 라이브러리가 다른 사람에 의해 수정되어 전달 된 경우받는 사람은 원래 버전이 아니므로 원래 작성자의 평판이 다른 사람이 제기 한 문제의 영향을받지 않도록해야합니다.
 
-In other cases, permission to use a particular library in non-free programs enables a greater number of people to use a large body of free software. For example, permission to use the GNU C Library in non-free programs enables many more people to use the whole GNU operating system, as well as its variant, the GNU/Linux operating system.
+마지막으로, 소프트웨어 특허는 무료 프로그램의 존재를 끊임없이 위협합니다. 우리는 회사가 특허 보유자로부터 제한적인 라이센스를 획득하여 무료 프로그램의 사용자를 효과적으로 제한 할 수 없도록하고 싶습니다. 따라서 우리는 라이브러리 버전에 대해 얻은 특허 라이센스가이 라이센스에 명시된 모든 사용의 자유와 일치해야한다고 주장합니다.
 
-Although the Lesser General Public License is Less protective of the users'freedom, it does ensure that the user of a program that is linked with the Library has the freedom and the wherewithal to run that program using a modified version of the Library.
+일부 라이브러리를 포함하여 대부분의 GNU 소프트웨어는 일반 GNU 일반 공중 사용 허가서 (General Public License)의 적용을받습니다. 이 라이센스 인 GNU Lesser General Public License는 특정 라이브러리에 적용되며 일반 GPL과는 상당히 다릅니다. 우리는 이러한 라이브러리를 비 자유 프로그램에 연결하는 것을 허용하기 위해이 라이브러리를 특정 라이브러리에 사용합니다.
 
-The precise terms and conditions for copying, distribution and modification follow. Pay close attention to the difference between a "work based on the library" and a "work that uses the library". The former contains code derived from the library, whereas the latter must be combined with the library in order to run.
+프로그램이 정적으로 또는 공유 라이브러리를 사용하여 라이브러리와 링크되어있는 경우이 둘은 합법적으로 원본 라이브러리의 파생 된 결합 된 저작을 말합니다. 따라서 일반 일반 공중 사용 허가서는 전체 조합이 자유 기준에 부합하는 경우에만 그러한 연결을 허용합니다. 약소 일반 공중 라이선스는 다른 코드와 라이브러리를 연결하는 데있어 좀 더 느슨한 기준을 허용합니다.
 
-## TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+우리는이 라이선스를 일반 GPL보다 사용자의 자유를 보호하는 것이 적기 때문에 일반 GPL (Lesser General Public License)이라고 부릅니다. 또한 자유 소프트웨어가 아닌 다른 프로그램과 비교하여 다른 자유 소프트웨어 개발자에게 이점을 제공합니다. 이러한 단점은 많은 도서관에서 일반 일반 공중 사용 허가서를 사용하는 이유입니다. 그러나 약식 라이센스는 특정 특수한 상황에서 이점을 제공합니다.
 
-This License Agreement applies to any software library or other program which contains a notice placed by the copyright holder or other authorized party saying it may be distributed under the terms of this Lesser General Public License (also called "this License"). Each licensee is addressed as "you".
+예를 들어, 드문 경우이지만 특정 라이브러리의 가능한 최대한의 사용을 장려하여 사실상의 표준이되도록 특별한 필요가있을 수 있습니다. 이를 달성하려면 비 자유 프로그램이 라이브러리를 사용하도록 허용되어야합니다. 더 빈번한 경우는 무료 라이브러리가 널리 사용되는 비 자유 라이브러리와 동일한 작업을 수행한다는 것입니다. 이 경우 무료 라이브러리를 자유 소프트웨어로만 제한하여 얻을 수있는 부분이 거의 없으므로 Lesser General Public License를 사용합니다.
 
-A "library" means a collection of software functions and/or data prepared so as to be conveniently linked with application programs (which use some of those functions and data) to form executables.
+다른 경우에는 자유 소프트웨어가 아닌 프로그램에서 특정 라이브러리를 사용할 수있는 권한으로 인해 더 많은 사람들이 많은 자유 소프트웨어를 사용할 수 있습니다. 예를 들어 자유 소프트웨어가 아닌 프로그램에서 GNU C 라이브러리를 사용할 수있는 권한은 더 많은 사람들이 전체 GNU 운영체제와 변형 된 GNU / Linux 운영체제를 사용할 수있게합니다.
 
-The "Library", below, refers to any such software library or work which has been distributed under these terms. A "work based on the Library" means either the Library or any derivative work under copyright law: that is to say, a work containing the Library or a portion of it, either verbatim or with modifications and/or translated straightforwardly into another language. (Hereinafter, translation is included without limitation in the term "modification".)
+약소 일반 공중 사용 허가서는 사용자의 자유를 덜 보호하지만, 라이브러리와 연결된 프로그램의 사용자는 수정 된 버전의 라이브러리를 사용하여 해당 프로그램을 실행할 자유와 자유가 보장됩니다.
 
-"Source code for a work" means the preferred form of the work for making modifications to it. For a library, complete source code means all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the library.
+복사, 배포 및 수정에 대한 정확한 조건이 준수됩니다. "도서관을 기반으로하는 저작물"과 "도서관을 사용하는 저작물"의 차이점에주의를 기울이십시오. 전자는 라이브러리에서 파생 된 코드를 포함하지만 후자는 실행하기 위해 라이브러리와 결합해야합니다.
 
-Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running a program using the Library is not restricted, and output from such a program is covered only if its contents constitute a work based on the Library (independent of the use of the Library in a tool for writing it). Whether that is true depends on what the Library does and what the program that uses the Library does.
+## 복제, 배포 및 수정을 위한 조건 (TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION)
 
-You may copy and distribute verbatim copies of the Library's complete source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and distribute a copy of this License along with the Library.
+본 사용권 계약은 저작권 소유자 또는 다른인가 된 당사자가이 약소 일반 공중 라이선스 (이하 "본 사용권"이라고도 함)의 조건에 따라 배포 할 것을 알리는 통지를 포함하는 모든 소프트웨어 라이브러리 또는 기타 프로그램에 적용됩니다. 각 라이센스 사용자는 "귀하"로 표시됩니다.
 
-You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee.
+"라이브러리"는 실행 파일을 형성하기 위해 응용 프로그램 (이러한 기능 및 데이터의 일부를 사용함)과 편리하게 링크되도록 준비된 소프트웨어 기능 및 / 또는 데이터 모음을 의미합니다.
 
-You may modify your copy or copies of the Library or any portion of it, thus forming a work based on the Library, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:
+아래의 "라이브러리"는 이러한 조항에 따라 배포 된 소프트웨어 라이브러리 또는 저작물을 의미합니다. "라이브러리를 기반으로하는 저작물"은 라이브러리 또는 저작권법에 따른 파생 저작물을 의미합니다. 즉, 라이브러리 또는 그 일부를 축 어적으로 또는 변형하여 포함하거나 다른 언어로 직접 번역 한 저작물을 의미합니다. (이후 번역은 "수정"이라는 용어에 제한없이 포함됩니다.)
 
-The modified work must itself be a software library.
-You must cause the files modified to carry prominent notices stating that you changed the files and the date of any change.
-You must cause the whole of the work to be licensed at no charge to all third parties under the terms of this License.
-If a facility in the modified Library refers to a function or a table of data to be supplied by an application program that uses the facility, other than as an argument passed when the facility is invoked, then you must make a good faith effort to ensure that, in the event an application does not supply such function or table, the facility still operates, and performs whatever part of its purpose remains meaningful.
 
-(For example, a function in a library to compute square roots has a purpose that is entirely well-defined independent of the application. Therefore, Subsection 2d requires that any application-supplied function or table used by this function must be optional: if the application does not supply it, the square root function must still compute square roots.)
+"저작물에 대한 소스 코드"는 해당 저작물을 수정하기위한 기본 형식을 의미합니다. 라이브러리의 경우 전체 소스 코드는 포함 된 모든 모듈의 모든 소스 코드와 연관된 인터페이스 정의 파일과 라이브러리의 컴파일 및 설치를 제어하는 ​​데 사용되는 스크립트를 의미합니다.
 
-These requirements apply to the modified work as a whole. If identifiable sections of that work are not derived from the Library, and can be reasonably considered independent and separate works in themselves, then this License, and its terms, do not apply to those sections when you distribute them as separate works. But when you distribute the same sections as part of a whole which is a work based on the Library, the distribution of the whole must be on the terms of this License, whose permissions for other licensees extend to the entire whole, and thus to each and every part regardless of who wrote it.
+복사, 배포 및 수정 이외의 활동은 본 라이센스의 적용을받지 않습니다. 그들은 그 범위 밖에있다. 라이브러리를 사용하여 프로그램을 실행하는 행위는 제한되지 않으며, 해당 프로그램의 출력물은 해당 내용이 라이브러리를 기반으로하는 저작물을 구성하는 경우에만 제공됩니다 (라이브러리 작성 도구와는 별도 임). 그것이 사실인지 아닌지는 도서관이하는 일과 도서관을 사용하는 프로그램이 무엇을 하느냐에 달려 있습니다.
 
-Thus, it is not the intent of this section to claim rights or contest your rights to work written entirely by you; rather, the intent is to exercise the right to control the distribution of derivative or collective works based on the Library.
+귀하는 라이브러리의 완전한 소스 코드의 사본을 어떤 매체로도 그대로 복사하여 배포 할 수 있습니다. 단, 각 복사본에 적절한 저작권 고지 및 보증 면책 조항을 눈에 띄게 적절하게 게시해야합니다. 본 사용권 및 보증의 부재에 대해 언급 한 모든 통지를 그대로 유지하십시오. 본 라이센스의 사본을 라이브러리와 함께 배포 할 수 있습니다.
 
-In addition, mere aggregation of another work not based on the Library with the Library (or with a work based on the Library) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.
+사본을 전송하는 물리적 행위에 대해 수수료를 부과 할 수 있으며, 귀하는 귀하의 선택에 따라 수수료 대신 유상 보증을 제공 할 수 있습니다.
 
-You may opt to apply the terms of the ordinary GNU General Public License instead of this License to a given copy of the Library. To do this, you must alter all the notices that refer to this License, so that they refer to the ordinary GNU General Public License, version 2, instead of to this License. (If a newer version than version 2 of the ordinary GNU General Public License has appeared, then you can specify that version instead if you wish.) Do not make any other change in these notices.
+귀하는 라이브러리 또는 그 일부의 복사본을 수정하여 라이브러리를 기반으로 저작물을 구성하고 위의 제 1 조의 조건에 따라 그러한 수정본이나 저작물을 복사 및 배포 할 수 있습니다. 단, 귀하는 이러한 모든 조건을 충족해야합니다 :
 
-Once this change is made in a given copy, it is irreversible for that copy, so the ordinary GNU General Public License applies to all subsequent copies and derivative works made from that copy.
+수정 된 저작물 자체가 소프트웨어 라이브러리 여야합니다.
+파일을 변경했음을 나타내는 눈에 띄는 고지 사항을 전달해야합니다.
+귀하는 본 라이센스의 조건에 따라 모든 제 3 자에게 무료로 라이센스를 부여해야합니다.
+수정 된 라이브러리의 기능이 기능을 사용하는 응용 프로그램이 제공하는 기능 또는 데이터 테이블을 참조하는 경우, 기능 호출시 전달되는 인수가 아닌 다른 기능을 수행해야합니다. 응용 프로그램이 그러한 기능이나 테이블을 제공하지 않을 경우, 기능은 여전히 ​​작동하고 그 목적의 어떤 부분이 의미가 있는지를 수행합니다.
 
-This option is useful when you wish to copy part of the code of the Library into a program that is not a library.
+(예를 들어, 제곱근을 계산하기위한 라이브러리의 함수는 응용 프로그램과는 별도로 완전히 정의 된 목적을 가지고 있습니다. 따라서 2d 섹션에서는이 함수에서 사용하는 응용 프로그램에서 제공하는 함수 나 테이블을 선택적으로 사용해야합니다. 응용 프로그램이 제공하지 않으면 제곱근 함수는 여전히 제곱근을 계산해야합니다.)
 
-You may copy and distribute the Library (or a portion or derivative of it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange.
+이러한 요구 사항은 수정 된 저작물 전체에 적용됩니다. 해당 저작물의 식별 가능한 섹션이 라이브러리에서 파생되지 않고 독립적으로 독립적 인 저작물로 간주 될 수있는 경우,이 라이센스 및 조건은 귀하가 별도로 저작물을 배포 할 때 해당 섹션에 적용되지 않습니다. 그러나 라이브러리를 기반으로하는 저작물 전체에 동일한 섹션을 배포하는 경우 전체 라이센스의 배포는 본 라이센스의 조건에 따라야하며,이 라이센스의 라이센스는 다른 라이센스 제공자에 대한 권한이 전체 전체로 확장되므로 각 라이센스에 적용됩니다 그리고 모든 부분은 누가 그것을 작성했는지에 관계없이.
 
-If distribution of object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place satisfies the requirement to distribute the source code, even though third parties are not compelled to copy the source along with the object code.
+따라서이 섹션의 목적은 귀하가 전적으로 귀하가 작성한 권리를 주장하거나 귀하의 권리를 행사하는 것이 아닙니다. 오히려 도서관을 기반으로하는 파생물이나 집단 저작물의 배포를 통제 할 수있는 권리를 행사하려는 의도가 있습니다.
 
-A program that contains no derivative of any portion of the Library, but is designed to work with the Library by being compiled or linked with it, is called a "work that uses the Library". Such a work, in isolation, is not a derivative work of the Library, and therefore falls outside the scope of this License.
+또한 저장 매체 또는 배포 매체의 볼륨에있는 라이브러리 (또는 라이브러리 기반 저작물)를 기반으로하는 라이브러리를 기반으로하지 않는 다른 저작물을 단순히 집계한다고해서 다른 저작물이 본 라이선스의 적용을받는 것은 아닙니다.
 
-However, linking a "work that uses the Library" with the Library creates an executable that is a derivative of the Library (because it contains portions of the Library), rather than a "work that uses the library". The executable is therefore covered by this License. Section 6 states terms for distribution of such executables.
+귀하는 본 라이센스 대신 일반 GNU 일반 공중 사용 허가서의 조항을 주어진 라이브러리 사본에 적용 할 수 있습니다. 이를 위해서는이 라이센스 대신 일반 GNU General Public License 버전 2를 참조하도록이 라이센스를 언급하는 모든 통지를 변경해야합니다. (일반 GNU 일반 공중 사용 허가서의 버전 2보다 새로운 버전이 나왔다면 원한다면 그 버전을 대신 지정할 수 있습니다.) 이러한 고지 사항을 변경하지 마십시오.
 
-When a "work that uses the Library" uses material from a header file that is part of the Library, the object code for the work may be a derivative work of the Library even though the source code is not. Whether this is true is especially significant if the work can be linked without the Library, or if the work is itself a library. The threshold for this to be true is not precisely defined by law.
+이 복사본이 주어진 사본에서 변경되면 해당 복사본에 대해 되돌릴 수 없으므로 일반 GNU 일반 공중 사용 허가서는 그 사본으로 만들어진 모든 후속 복사본과 파생물에 적용됩니다.
 
-If such an object file uses only numerical parameters, data structure layouts and accessors, and small macros and small inline functions (ten lines or less in length), then the use of the object file is unrestricted, regardless of whether it is legally a derivative work. (Executables containing this object code plus portions of the Library will still fall under Section 6.)
+이 옵션은 라이브러리의 코드 일부를 라이브러리가 아닌 프로그램에 복사하고자 할 때 유용합니다.
 
-Otherwise, if the work is a derivative of the Library, you may distribute the object code for the work under the terms of Section 6. Any executables containing that work also fall under Section 6, whether or not they are linked directly with the Library itself.
+귀하는 위의 제 1 조 및 제 2 조의 조건에 따라 객체 코드 나 실행 가능한 형태로 라이브러리 (또는 그 일부 또는 2 차적으로 파생물)를 복사하여 배포 할 수 있으며, 해당 기계 판독 가능 소스 코드, 소프트웨어 인터체인지에 통상적으로 사용되는 매체를 통해 제 1 조 및 제 2 조의 조건에 따라 배포되어야한다.
 
-As an exception to the Sections above, you may also combine or link a "work that uses the Library" with the Library to produce a work containing portions of the Library, and distribute that work under terms of your choice, provided that the terms permit modification of the work for the customer's own use and reverse engineering for debugging such modifications.
+지정된 장소에서 복사에 대한 액세스를 제공함으로써 목적 코드의 배포가 이루어진 경우 동일한 장소에서 소스 코드를 복사 할 수있는 동등한 권한을 제공하면 제 3자가 소스를 복사하지 않아도 소스 코드 배포 요구 사항을 충족합니다 오브젝트 코드와 함께
 
-You must give prominent notice with each copy of the work that the Library is used in it and that the Library and its use are covered by this License. You must supply a copy of this License. If the work during execution displays copyright notices, you must include the copyright notice for the Library among them, as well as a reference directing the user to the copy of this License. Also, you must do one of these things:
+라이브러리의 일부를 파생하지 않았지만 컴파일되거나 링크되어 라이브러리와 함께 작동하도록 설계된 프로그램을 "라이브러리를 사용하는 저작물"이라고합니다. 이와 같은 저작물은 별도로 라이브러리의 파생 저작물이 아니므로 본 라이선스의 범위를 벗어난다.
 
-Accompany the work with the complete corresponding machine-readable source code for the Library including whatever changes were used in the work (which must be distributed under Sections 1 and 2 above); and, if the work is an executable linked with the Library, with the complete machine- readable "work that uses the Library", as object code and/or source code, so that the user can modify the Library and then relink to produce a modified executable containing the modified Library. (It is understood that the user who changes the contents of definitions files in the Library will not necessarily be able to recompile the application to use the modified definitions.)
-Use a suitable shared library mechanism for linking with the Library. A suitable mechanism is one that (1) uses at run time a copy of the library already present on the user's computer system, rather than copying library functions into the executable, and (2) will operate properly with a modified version of the library, if the user installs one, as long as the modified version is interface-compatible with the version that the work was made with.
-Accompany the work with a written offer, valid for at least three years, to give the same user the materials specified in Subsection 6a, above, for a charge no more than the cost of performing this distribution.
-If distribution of the work is made by offering access to copy from a designated place, offer equivalent access to copy the above specified materials from the same place.
-Verify that the user has already received a copy of these materials or that you have already sent this user a copy.
-For an executable, the required form of the "work that uses the Library" must include any data and utility programs needed for reproducing the executable from it. However, as a special exception, the materials to be distributed need not include anything that is normally distributed (in either source or binary form) with the major components (compiler, kernel, and so on) of the operating system on which the executable runs, unless that component itself accompanies the executable.
+그러나 "라이브러리를 사용하는 저작물"을 라이브러리와 연결하면 "라이브러리를 사용하는 저작물"이 아닌 라이브러리의 파생물 (라이브러리의 일부가 포함되어 있기 때문에)을 실행 파일로 만듭니다. 따라서 실행 파일은 본 라이센스의 적용을받습니다. 6 절에서는 그러한 실행 파일 배포에 대한 조건을 설명합니다.
 
-It may happen that this requirement contradicts the license restrictions of other proprietary libraries that do not normally accompany the operating system. Such a contradiction means you cannot use both them and the Library together in an executable that you distribute.
+"라이브러리를 사용하는 저작물"이 라이브러리의 일부인 헤더 파일의 자료를 사용하는 경우 저작물의 객체 코드는 소스 코드가 아닌 경우에도 라이브러리의 파생 저작물이 될 수 있습니다. 이것이 사실인지 여부는 작품이 도서관없이 연결될 수 있거나 작품 자체가 도서관 일 경우 특히 중요합니다. 이 사실에 대한 기준은 법에 의해 정확하게 정의되지 않습니다.
 
-You may place library facilities that are a work based on the Library side- by-side in a single library together with other library facilities not covered by this License, and distribute such a combined library, provided that the separate distribution of the work based on the Library and of the other library facilities is otherwise permitted, and provided that you do these two things:
-Accompany the combined library with a copy of the same work based on the Library, uncombined with any other library facilities. This must be distributed under the terms of the Sections above.
-Give prominent notice with the combined library of the fact that part of it is a work based on the Library, and explaining where to find the accompanying uncombined form of the same work.
-You may not copy, modify, sublicense, link with, or distribute the Library except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense, link with, or distribute the Library is void, and will automatically terminate your rights under this License. However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance.
-You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Library or its derivative works. These actions are prohibited by law if you do not accept this License. Therefore, by modifying or distributing the Library (or any work based on the Library), you indicate your acceptance of this License to do so, and all its terms and conditions for copying, distributing or modifying the Library or works based on it.
-Each time you redistribute the Library (or any work based on the Library), the recipient automatically receives a license from the original licensor to copy, distribute, link with or modify the Library subject to these terms and conditions. You may not impose any further restrictions on the recipients'exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties with this License.
-If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Library at all. For example, if a patent license would not permit royalty-free redistribution of the Library by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Library.
+이러한 객체 파일이 숫자 매개 변수, 데이터 구조 레이아웃 및 접근 자, 작은 매크로 및 작은 인라인 함수 (길이가 10 줄 이하) 만 사용하는 경우 합법적인지 여부에 관계없이 객체 파일의 사용이 제한되지 않습니다 작업. (이 오브젝트 코드와 라이브러리 부분을 포함하는 실행 파일은 여전히 ​​섹션 6에 해당됩니다.)
 
-If any portion of this section is held invalid or unenforceable under any particular circumstance, the balance of the section is intended to apply, and the section as a whole is intended to apply in other circumstances.
+그렇지 않은 경우 저작물이 라이브러리의 파생물 인 경우 제 6 조의 조건에 따라 저작물 코드를 배포 할 수 있습니다. 해당 저작물을 포함하는 실행 파일은 라이브러리 자체와 직접 링크되어 있는지 여부와 상관없이 섹션 6에 해당됩니다 .
 
-It is not the purpose of this section to induce you to infringe any patents or other property right claims or to contest validity of any such claims; this section has the sole purpose of protecting the integrity of the free software distribution system which is implemented by public license practices. Many people have made generous contributions to the wide range of software distributed through that system in reliance on consistent application of that system; it is up to the author/donor to decide if he or she is willing to distribute software through any other system and a licensee cannot impose that choice.
+위 섹션의 예외 사항으로, 귀하는 "라이브러리를 사용하는 저작물"을 라이브러리와 결합하거나 링크하여 라이브러리 일부를 포함하는 저작물을 생성하고 귀하가 선택한 조건에 따라 저작물을 배포 할 수 있습니다 고객 자신의 사용을위한 작업 수정 및 그러한 수정 디버깅을위한 리버스 엔지니어링.
 
-This section is intended to make thoroughly clear what is believed to be a consequence of the rest of this License.
+귀하는 저작물의 각 사본에 라이브러리가 사용되었고 도서관 및 그 사용이 본 라이선스의 적용을 받는다는 사실을 눈에 띄게 알려야합니다. 본 라이센스의 사본을 제공해야합니다. 실행 중 저작물에 저작권 고지가 표시되는 경우 라이브러리에 대한 저작권 고지와 함께 사용자에게 본 라이센스의 사본을 보내도록 참조해야합니다. 또한 다음 중 하나를 수행해야합니다.
 
-If the distribution and/or use of the Library is restricted in certain countries either by patents or by copyrighted interfaces, the original copyright holder who places the Library under this License may add an explicit geographical distribution limitation excluding those countries, so that distribution is permitted only in or among countries not thus excluded. In such case, this License incorporates the limitation as if written in the body of this License.
-The Free Software Foundation may publish revised and/or new versions of the Lesser General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+저작물에 사용 된 모든 변경 사항 (위 섹션 1 및 2에 따라 배포되어야 함)을 포함하여 라이브러리에 대한 해당 기계 판독 가능 소스 코드로 저작물을 제공합니다. 저작물이 라이브러리와 링크 된 실행 파일 인 경우, 시스템이 읽을 수있는 "라이브러리를 사용하는 저작물"을 오브젝트 코드 및 / 또는 소스 코드로 사용하여 사용자가 라이브러리를 수정 한 다음 다시 링크하여 수정 된 라이브러리를 포함하는 수정 된 실행 파일. (라이브러리에서 정의 파일의 내용을 변경하는 사용자가 수정 된 정의를 사용하도록 응용 프로그램을 다시 컴파일 할 수있는 것은 아닙니다.)
+라이브러리와 연결하는 데 적합한 공유 라이브러리 메커니즘을 사용하십시오. 적절한 메커니즘은 (1) 라이브러리 함수를 실행 파일에 복사하는 것이 아니라 런타임에 사용자의 컴퓨터 시스템에 이미있는 라이브러리 사본을 사용하고 (2) 라이브러리의 수정 된 버전으로 올바르게 작동하는 것, 수정 된 버전이 작업이 만들어진 버전과 인터페이스 호환 가능한 한 사용자가 하나를 설치하면됩니다.
+저작물을 최소한 3 년 동안 유효한 서면으로 제공하여 동일한 하위 사용자에게 상기 하위 조항 6a에 명시된 자료를 제공하고이 배포를 수행하는 비용보다 많은 비용을 청구하십시오.
+저작물의 배포가 지정된 장소에서 사본을 제공함으로써 이루어지면 같은 장소에서 위의 특정 자료를 복사 할 수있는 동등한 권한을 제공하십시오.
+사용자가 이미이 자료의 사본을 받았거나 이미이 사용자에게 사본을 보냈는지 확인하십시오.
+실행 파일의 경우 "라이브러리를 사용하는 저작물"의 필수 형식에는 실행 파일을 재생산하는 데 필요한 데이터 및 유틸리티 프로그램이 포함되어야합니다. 그러나 예외적으로, 배포 할 자료에는 실행 파일이 실행되는 운영 체제의 주요 구성 요소 (컴파일러, 커널 등)와 함께 정상적으로 배포되는 내용 (소스 또는 바이너리 형식 모두 포함)이 필요하지 않습니다. 해당 구성 요소 자체가 실행 파일을 수반하지 않는 한.
 
-Each version is given a distinguishing version number. If the Library specifies a version number of this License which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Library does not specify a license version number, you may choose any version ever published by the Free Software Foundation.
+이 요구 사항은 일반적으로 운영 체제에 수반되지 않는 다른 독점 라이브러리의 라이센스 제한 사항과 상충 될 수 있습니다. 이러한 모순은 귀하와 귀하가 배포하는 실행 파일을 함께 사용할 수 없음을 의미합니다.
 
-If you wish to incorporate parts of the Library into other free programs whose distribution conditions are incompatible with these, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally.
+귀하는 라이브러리에 기반한 저작물을 하나의 라이브러리에 나란히 놓고 본 라이센스에서 다루지 않는 다른 라이브러리 기능을 배치하고 결합 된 라이브러리를 배포 할 수 있습니다. 단, 도서관 및 기타 도서관 시설은 달리 허용되며 다음 두 가지를 수행해야합니다.
+결합 된 도서관을 다른 도서관 시설과 결합되지 않은 도서관에 근거한 동일한 저작물의 사본과 함께 제공하십시오. 위 섹션의 조건에 따라 배포해야합니다.
+결합 된 도서관에 그 일부가 도서관을 기반으로하는 저작물이라는 사실과 함께 동일한 저작물의 결합되지 않은 형태를 어디에서 찾을 수 있는지에 대한 현저한 통보를하십시오.
+귀하는 본 라이센스에 명시 적으로 규정 된 경우를 제외하고는 라이브러리를 복사, 수정, 재 라이센스 부여, 링크 또는 배포 할 수 없습니다. 라이브러리를 복사, 수정, 재 라이센스 부여, 링크 또는 배포하려는 시도는 무효이며 본 라이센스에 의거 한 귀하의 권리는 자동으로 해지됩니다. 그러나 본 라이센스에 의거하여 귀하로부터 사본 또는 권리를 수령 한 당사자는 해당 당사자가 완전히 준수하는 동안 라이센스가 종료되지 않습니다.
+귀하는 서명하지 않았으므로이 라이센스를 수락 할 필요가 없습니다. 그러나 도서관이나 그 파생물을 수정하거나 배포 할 수있는 권한은 귀하에게 부여되지 않습니다. 귀하가 본 라이센스를 수락하지 않으면 이러한 행위는 법으로 금지되어 있습니다. 따라서 라이브러리 (또는 라이브러리를 기반으로 한 모든 저작물)를 수정하거나 배포함으로써, 귀하는 라이브러리의 복제, 배포 또는 수정을위한 본 사용권 계약 및 모든 조건을 수락 함을 나타냅니다.
 
-NO WARRANTY
+귀하가 라이브러리 (또는 라이브러리를 기반으로하는 모든 저작물)를 재배포 할 때마다 수신자는 본 이용 약관의 조건에 따라 라이브러리를 복사, 배포, 링크 또는 수정하는 라이센스를 원본 라이센스 제공자로부터 자동으로 수령합니다. 수령인이 여기에 부여 된 권리에 대해 더 이상의 제한을 가할 수 없습니다. 귀하는 제 3 자의 본 라이센스 사용에 대한 준수 의무를지지 않습니다.
+법원 판결이나 특허 침해 혐의 또는 다른 이유로 (특허 문제에 국한되지 않음) 법원 명령, 계약 또는 기타 방법으로이 라이선스의 조건에 위배되는 조건이 부과 된 경우, 그들은이 라이센스의 조건에서 당신을 변명하지 않습니다. 귀하가 본 라이센스 및 기타 관련 의무를 동시에 이행 할 수 있도록 배포 할 수없는 경우 귀하는 라이브러리를 전혀 배포 할 수 없습니다. 예를 들어, 특허 라이센스가 귀하를 통해 직접 또는 간접적으로 사본을 수령 한 모든 사람이 특허 사용료를받지 않고 도서관을 재배포하는 것을 허용하지 않는 경우, 귀하와 귀하가이 라이센스를 모두 만족시킬 수있는 유일한 방법은 도서관.
 
-BECAUSE THE LIBRARY IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE LIBRARY, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE LIBRARY "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE LIBRARY IS WITH YOU. SHOULD THE LIBRARY PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
-IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE LIBRARY AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE LIBRARY (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE LIBRARY TO OPERATE WITH ANY OTHER SOFTWARE), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+특정 상황에서이 섹션의 일부가 유효하지 않거나 집행이 불가능한 경우, 섹션의 균형이 적용되며, 섹션 전체가 다른 상황에서 적용될 수 있습니다.
 
-## License for UTF8
+이 섹션의 목적은 귀하가 특허 또는 기타 재산권에 대한 권리를 침해하거나 그러한 주장의 타당성을 주장하도록 유도하는 것이 아닙니다. 이 섹션은 공개 라이센스 관행에 의해 구현되는 자유 소프트웨어 배포 시스템의 무결성을 보호하기위한 유일한 목적을 가지고 있습니다. 많은 사람들이 시스템의 일관된 응용에 의존하여 해당 시스템을 통해 배포되는 광범위한 소프트웨어에 많은 기여를했습니다. 저자 / 기증자는 다른 시스템을 통해 소프트웨어를 배포 할 의사가 있는지 여부를 결정해야하며 라이센스 사용자는 그러한 선택을 할 수 없습니다.
 
-fish also contains small amounts of code under the ISC license, namely the UTF-8 conversion functions. This code is copyright © 2007 Alexey Vatchenko <av@bsdua.org>.
+본 조항은 본 라이센스의 나머지 조항의 결과로 간주되는 것을 철저히 명확히하기위한 것입니다.
 
-The ISC license agreement follows.
+특정 국가에서 특허 또는 저작권이 설정된 인터페이스로 라이브러리의 배포 및 / 또는 사용이 제한되는 경우 본 라이선스에 따라 라이브러리를 배치 한 원 저작권자는 해당 국가를 제외한 명시적인 지리적 배포 제한을 추가 할 수 있으므로 배포가 허용됩니다 그렇게 배제되지 않은 국가들에서만 또는 그 국가들 사이에서. 이 경우, 본 라이센스는 본 라이센스 본문에 쓰여진 것처럼 제한을 통합합니다.
+자유 소프트웨어 재단은 수시로 약소 일반 공중 사용 허가서의 개정 버전 및 / 또는 새 버전을 게시 할 수 있습니다. 이러한 새 버전은 현재 버전과 비슷한 정신을 갖지만 새로운 문제 또는 우려 사항을 해결하기 위해 세부 사항이 다를 수 있습니다.
 
-Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+각 버전에는 고유 한 버전 번호가 부여됩니다. 라이브러리에 적용되는 본 라이센스의 버전 번호와 "이후 버전"이 명시되어있는 경우, 해당 버전 또는 자유 소프트웨어 재단에서 발행 한 이후 버전의 이용 약관을 따르는 옵션이 있습니다. 라이브러리에 라이선스 버전 번호가 지정되어 있지 않은 경우 자유 소프트웨어 재단이 게시 한 버전을 선택할 수 있습니다.
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+라이브러리의 일부를 배포 조건이 호환되지 않는 다른 무료 프로그램에 포함 시키려면 저작자에게 허가를 요청하십시오. 자유 소프트웨어 재단이 저작권을 소유 한 소프트웨어의 경우 자유 소프트웨어 재단에 기명하십시오. 우리는 때때로 이것을 예외로합니다. 우리의 결정은 자유 소프트웨어의 모든 파생물의 자유로운 지위를 유지하고 일반적으로 소프트웨어의 공유 및 재사용을 촉진하는 두 가지 목표에 따라 결정될 것입니다.
 
-## License for flock
+무보증 (NO WARRANTY)
 
-fish also contains small amounts of code from NetBSD, namely the flock fallback function. This code is copyright 2001 The NetBSD Foundation, Inc., and derived from software contributed to The NetBSD Foundation by Todd Vierling.
+라이브러리에는 무료로 라이센스가 부여되기 때문에 해당 법률에서 허용하는 범위 내에서 라이브러리에 대한 어떠한 보증도 제공되지 않습니다. 명시 적으로 상품성 및 특정 목적에의 적합성에 대한 묵시적 보증을 포함하여 (단, 이에 한하지 않음) 명시 적 또는 묵시적으로 어떤 종류의 보증도없이 "있는 그대로"의 상태로 라이브러리를 제공하는 경우를 제외하고는 . 라이브러리의 품질과 성능에 대한 전적인 책임은 귀하에게 있습니다. 라이브러리에 결함이있는 것으로 밝혀지면 필요한 모든 서비스, 수리 또는 수정 비용을 부담해야합니다.
+관련 법률에 의해 요구되거나 서면 동의를 얻은 경우를 제외하고는 위의 허가 된 라이브러리를 수정하거나 재배포 할 수있는 다른 당사자 또는 다른 당사자는 귀하에게 일반, 특수, 우발적 또는 특수한 손해에 대한 책임을지지 않습니다. 결과적 손해 (귀하가 제 3 자 또는 제 3 자에 의해 부정확하거나 손실 된 데이터 나 데이터의 손실 또는 다른 소프트웨어와의 작동에 실패한 경우를 포함하되 이에 국한되지 않음)에 관계없이 파생적 손해 해당 소유자 또는 다른 당사자가 그러한 손해의 가능성을 사전에 알고있는 경우.
 
-The NetBSD license follows.
+## UTF8 라이센스
 
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+피쉬는 또한 ISC 면허의 밑에 소량의 부호, 즉 UTF-8 변환 기능을 포함한다. 이 코드는 2007 Alexey Vatchenko <av@bsdua.org>에게 저작권이 있습니다.
 
-Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ISC 라이센스 계약은 다음과 같습니다.
 
+위의 저작권 표시 및이 사용 권한 표시가 모든 사본에 나타나는 경우, 유료로 또는 유료로이 소프트웨어를 사용, 복사, 수정 및 / 또는 배포 할 수있는 권한이 부여됩니다.
+
+소프트웨어는 "있는 그대로"제공되며 저자는 상품성 및 적합성에 대한 묵시적인 보증을 포함하여이 소프트웨어와 관련한 모든 보증을 부인합니다. 어떠한 경우에도 저자는 계약이나 과실 또는 기타 치열한 행위가 발생했는지 여부와 관계없이 사용, 데이터 또는 이익의 손실로 인해 발생한 특별, 직접, 간접적 또는 파생적 손해 또는 손해에 대해 책임을지지 않습니다. 이 소프트웨어의 사용 또는 성능과 관련하여.
+
+## flock 라이센스
+
+피쉬는 또한 NetBSD에서 소량의 코드, 즉 플록 폴백 함수를 포함합니다. 이 코드는 2001 NetBSD Foundation, Inc.의 저작권이며 Todd Vierling이 The NetBSD Foundation에 기증 한 소프트웨어에서 파생되었습니다.
+
+NetBSD 라이센스는 다음과 같습니다.
+
+소스 또는 이진 형식의 재배포 및 사용은 수정 여부와 상관없이 다음 조건이 충족되는 경우 허용됩니다.
+
+소스 코드 재배포시 위의 저작권 고지, 본 조건 목록 및 다음 면책 조항을 포함해야합니다.
+바이너리 형식의 재배포는 위의 저작권 공지,이 조건 목록 및 다음 면책 조항을 배포시 제공된 설명서 및 / 또는 기타 자료에 포함시켜야합니다.
+
+이 소프트웨어는 NetBSD 재단, 관계자 및 "있는 그대로"제공되며, 상품성 및 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하여 (단, 이에 한하지 않음) 명시 적 또는 묵시적 보증을하지 않습니다. 재단 또는 기여자는 어떠한 경우에도 직접, 간접, 우발적, 우발적, 특수 또는 징벌 적 손해 (대체 상품 또는 서비스의 조달, 사용, 데이터 또는 이익의 손실을 포함하되 이에 국한되지 않음)에 대해 책임지지 않습니다. 영업 중단) 책임을지지 않습니다. 계약 위반, 엄격한 책임 또는 불법 행위 (과실 포함 또는 기타 포함)에 관계없이이 소프트웨어의 사용으로 인해 발생하는 모든 책임은 해당 손해의 가능성을 사전에 알고 있던 경우에도 마찬가지입니다.
