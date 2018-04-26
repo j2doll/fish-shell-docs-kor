@@ -258,5 +258,27 @@ Mister Noodle
 </pre>
 
 ### 목록(List)
+- 위의 set 명령은 Mister Noodle 이 하나의 인수 Mister Noodle 인지 확인하기 위해 따옴표를 사용했습니다. 두 개의 인수가 있었다면 name 은 길이(length)가 2인 목록(list)이었을 것입니다.
+- 사실,피쉬(fish)의 모든 변수는 실제로 목록(list)이며, 값의 개수를 포함할 수도 있고, 전혀 포함하지 않을 수도 있습니다.
+- $PWD 와 같은 일부 변수에는 하나의 값만 있습니다. 규칙에 따라 변수의 값에 대해 이야기하지만 실제로는 첫 번째 값을 의미합니다.
+- $PATH 와 같은 다른 변수에는 실제로 여러 값이 있습니다. 변수 확장 중에는 변수가 확장되어 여러 인수가 됩니다. <font color="red">(경로들간에 콜론(:)이 없는 것을 주목하십시오!)</font>
 
+<pre>
+> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>
+/usr/bin /bin /usr/sbin /sbin /usr/local/bin
+</pre>
+
+- 피쉬(fish)가 실행을 시작할 때 콜론(:)으로 분리된 세 개의 환경 변수인 PATH, CDPATH, MANPATH 가 있습니다.
+- 이는 반대로 하위 명령으로 내보낼 때 콜론에 조인됩니다.
+- 유사한 의미를 갖는 다른 모든 환경 변수(예: LD_LIBRARY_PATH)는 단순한 문자열로 취급됩니다.
+- 목록(list)에는 다른 목록을 포함할 수 없습니다. <font color="red">목록은 재귀가 없습니다!</font>
+- 변수는 문자열(string)의 목록(list)이며, 전체 정지입니다.
+
+<pre>
+> <font color="purple">count</font> <font color="darkcyan">$PATH</font>
+5
+</pre>
+
+- 추가 인수를 사용하여 목록 자체를 설정하여 목록에 추가하거나 추가 할 수 있습니다.
+- 다음은 /usr/local/bin을 $ PATH에 추가하는 예제입니다.
 
