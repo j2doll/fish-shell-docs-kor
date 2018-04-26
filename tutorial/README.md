@@ -159,7 +159,15 @@ set - handle shell variables
 
 ### 탭 완성 (Tab Completions)
 
-- 
+- 피쉬(fish)에는 탭(tab) 완성이 풍부하게 갖추어져 있으며, 이는 즉석에서 작동합니다.
+- Tab 키를 누르면 피쉬(fish)가 명령, 인수 또는 경로를 완료하려고 시도합니다.
+
+<pre>
+> <font color="red">/pri</font> <font color="blue">@key{Tab} → /private/</font>
+</pre>
+
+- 둘 이상의 가능성이 있는 경우 목록에 표시됩니다.
+
 
 
 
