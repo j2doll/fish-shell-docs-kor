@@ -2,7 +2,7 @@
 
 > *[문서](https://j2doll.github.io/fish-shell-docs-kor/doc/)*
 
-> *[튜토리얼](https://j2doll.github.io/fish-shell-docs-kor/tutorial/)*
+> *[자습서](https://j2doll.github.io/fish-shell-docs-kor/tutorial/)*
 
 > *[디자인](https://j2doll.github.io/fish-shell-docs-kor/design/)*
 
