@@ -280,5 +280,38 @@ Mister Noodle
 </pre>
 
 - 추가 인수를 사용하여 목록 자체를 설정하여 목록에 추가하거나 추가 할 수 있습니다.
-- 다음은 /usr/local/bin을 $ PATH에 추가하는 예제입니다.
+- 다음은 /usr/local/bin을 $PATH에 추가하는 예제입니다.
+
+<pre>
+> <font color="purple">set</font> <font color="blue">PATH</font> <font color="darkcyan">$PATH</font> <font color="blue">/usr/local/bin</font>
+</pre>
+
+- 대괄호([])로 개별 요소에 접근 할 수도 있습니다.
+- 인덱싱(indexing)은 처음부터 1에서 시작하고, 끝에서 부터는 -1에서 시작합니다.
+
+<pre>
+ > <font color="purple">echo</font> <font color="darkcyan">$PATH</font>
+/usr/bin /bin /usr/sbin /sbin /usr/local/bin
+> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>[1]
+/usr/bin
+> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>[-1]
+/usr/local/bin
+</pre>
+
+- 그리고 "조각(slice:)" 이라고 하는 요소 범위에도 접근할 수도 있습니다.
+
+<pre>
+> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>[1..2]
+/usr/bin /bin
+> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>[-1..2]
+/usr/local/bin /sbin /usr/sbin /bin
+</pre>
+
+- 물론 for 루프(loop)를 사용하여 목록(또는 슬라이스)을 반복 할 수 있습니다.
+
+<pre>
+
+</pre>
+
+
 
