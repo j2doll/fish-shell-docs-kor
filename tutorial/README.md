@@ -41,16 +41,16 @@ you@hostname ~>
 - 명령을 입력하고 인수를 입력하면 됩니다. 백은 구분 기호입니다.
 
 <pre>
-> <font color="purple">echo</font> <font color="blue">hello world</font>
+\> <font color="purple">echo</font> <font color="blue">hello world</font>
 hello world
 </pre>
 
 - 역 슬래시(\)가 있는 인수에 리터럴(literal) 공백을 포함하거나 작은 따옴표(') 나 큰 따옴표(“)를 사용할 수 있습니다.
 
 <pre>
-> <font color="blue">mkdir My\ Files</font>
-> <font color="purple">cp</font> <font color="blue">~/Some\ File</font> <font color="brown">'My Files'</font>
-> <font color="purple">ls</font> <font color="brown">"My Files"</font>
+\> <font color="blue">mkdir My\ Files</font>
+\> <font color="purple">cp</font> <font color="blue">~/Some\ File</font> <font color="brown">'My Files'</font>
+\> <font color="purple">ls</font> <font color="brown">"My Files"</font>
 Some File
 </pre>
 
@@ -63,7 +63,7 @@ Some File
 	- 예: 웹 브라우저에서 열기 위해서 help set, 터미널에서 보기 위해 man set 설정
 
 <pre>
-> <font color="purple">man</font> <font color="blue">set</font>
+\> <font color="purple">man</font> <font color="blue">set</font>
 set - handle shell variables
   Synopsis...
 </pre>
@@ -73,7 +73,7 @@ set - handle shell variables
 - 잘못된 명령은 기본적으로 <font color="red">빨간색(Red)</font>으로 표시됩니다.
 
 <pre>
-> <font color="red">/bin/mkd</font>
+\> <font color="red">/bin/mkd</font>
 </pre>
 
 - 명령이 존재하지 않거나 실행할 수 없는 파일을 참조하기 때문에 명령이 유효하지 않을 수 있습니다. 명령이 유효해지면 다른 색으로 표시됩니다.
@@ -85,7 +85,7 @@ set - handle shell variables
 -  피쉬(fish)는 입력할 때 유효한 파일 경로에 밑줄을 긋습니다.
 
 <pre>
-> <font color="purple">cat</font> <font color="blue"><u>~/somefi</u></font>
+\> <font color="purple">cat</font> <font color="blue"><u>~/somefi</u></font>
 </pre>
 
 - 이것은 'somefi'로 시작하는 파일이 있다는 것을 의미하며, 이는 입력할 때 유용한 피드백입니다.
@@ -96,7 +96,7 @@ set - handle shell variables
 - 모든 JPEG 파일(*.jpg)을 나열하려면 다음과 같이하십시오.
 
 <pre>
-> <font color="purple">ls</font> <font color="blue">*.jpg</font>
+\> <font color="purple">ls</font> <font color="blue">\*.jpg</font>
  lena.jpg
  meena.jpg
  산타 마리아.jpg
@@ -105,7 +105,7 @@ set - handle shell variables
 - 여러 개의 와일드 카드를 포함 할 수도 있습니다.
 
 <pre>
-> <font color="purple">ls</font> <font color="blue">l*.p*</font>
+\> <font color="purple">ls</font> <font color="blue">l\*.p\*</font>
  lena.png
  lesson.pdf
 </pre>
