@@ -184,6 +184,38 @@ builtin_list_io_merge <font color="grey">(Branch)</font> <font color="aqua">buil
 
 - 탭을 치고 피쉬(fish)가 할 수 있는 것들을 보십시오!
 
+### 변수 (Variables)
+
+- 다른 쉘과 마찬가지로 달러 기호는 변수 대체를 수행합니다.
+
+<pre>
+> <font color="purple">echo</font> <font color="blue">My home directory is</font> <font color="aqua">$HOME</font>
+My home directory is /home/tutorial
+</pre>
+
+- 변수 대입은 큰 따옴표에서도 발생하지만 작은 따옴표에서는 발생하지 않습니다.
+
+<pre>
+> <font color="purple">echo</font> <font color="yellow">"My current directory is $PWD"</font>
+My current directory is /home/tutorial
+> <font color="purple">echo</font> <font color="yellow">'My current directory is $PWD'</font>
+My current directory is $PWD
+</pre>
+
+- 다른 쉘과 달리 피쉬(fish)에는 변수 설정을 위한 전용 구문이 없습니다.
+- 대신 변수 이름과 그 값을 취하는 일반적인 명령 set 이 있습니다.
+
+<pre>
+> <font color="purple">set</font> <font color="blue">name</font> <font color="yellow">'Mister Noodle'</font>
+> <font color="purple">echo</font> <font color="aqua">$name</font>
+Mister Noodle
+</pre>
+
+- <font color="red">(따옴표를 주의 하십시오! : 그것들이 없으면 Mister와 Noodle은 별도의 인수가 되고 $name은 두 개의 요소 목록으로 만들어집니다.)</font>
+- 다른 셸과 달리 변수는 대체 후에 더 이상 분리되지 않습니다.
 
 
- 
+
+
+
+
