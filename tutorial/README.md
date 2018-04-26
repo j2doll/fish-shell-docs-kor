@@ -388,7 +388,7 @@ testing_1360099791.txt
 </pre>
 
 ### 결합자 (And, Or, Not)
-- 다른 쉘과 달리 피쉬(fish)에는 && 또는 || 와 같은 특수 구문이 <font color="red">없습니다!</font>
+- 다른 쉘과 달리 피쉬(fish)에는 && 또는 \|\| 와 같은 특수 구문이 <font color="red">없습니다!</font>
 - 대신에 and, or, not 명령을 가지고 있습니다.
 
 <pre>
