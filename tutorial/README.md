@@ -49,8 +49,8 @@ hello world
 
 <pre>
 > <font color="blue">mkdir My\ Files</font>
-> <font color="purple">cp</font> <font color="blue">~/Some\ File</font> <font color="yellow">'My Files'</font>
-> <font color="purple">ls</font> <font color="yellow">"My Files"</font>
+> <font color="purple">cp</font> <font color="blue">~/Some\ File</font> <font color="brown">'My Files'</font>
+> <font color="purple">ls</font> <font color="brown">"My Files"</font>
 Some File
 </pre>
 
@@ -179,7 +179,7 @@ set - handle shell variables
 <pre>
 > <font color="purple">git</font> <font color="blue">merge pr</font> @key{Tab} → <font color="purple">git</font> <font color="blue">merge prompt_designer</font>
 > <font color="purple">git</font> <font color="blue">checkout b</font> @key{Tab}
-builtin_list_io_merge <font color="grey">(Branch)</font> <font color="aqua">builtin_set_color</font> <font color="grey">(Branch)</font> <font color="aqua">busted_events</font> <font color="grey">(Tag)</font>
+builtin_list_io_merge <font color="grey">(Branch)</font> <font color="darkcyan">builtin_set_color</font> <font color="grey">(Branch)</font> <font color="darkcyan">busted_events</font> <font color="grey">(Tag)</font>
 </pre>
 
 - 탭을 치고 피쉬(fish)가 할 수 있는 것들을 보십시오!
@@ -189,16 +189,16 @@ builtin_list_io_merge <font color="grey">(Branch)</font> <font color="aqua">buil
 - 다른 쉘과 마찬가지로 달러 기호는 변수 대체를 수행합니다.
 
 <pre>
-> <font color="purple">echo</font> <font color="blue">My home directory is</font> <font color="aqua">$HOME</font>
+> <font color="purple">echo</font> <font color="blue">My home directory is</font> <font color="darkcyan">$HOME</font>
 My home directory is /home/tutorial
 </pre>
 
 - 변수 대입은 큰 따옴표에서도 발생하지만 작은 따옴표에서는 발생하지 않습니다.
 
 <pre>
-> <font color="purple">echo</font> <font color="yellow">"My current directory is $PWD"</font>
+> <font color="purple">echo</font> <font color="brown">"My current directory is $PWD"</font>
 My current directory is /home/tutorial
-> <font color="purple">echo</font> <font color="yellow">'My current directory is $PWD'</font>
+> <font color="purple">echo</font> <font color="brown">'My current directory is $PWD'</font>
 My current directory is $PWD
 </pre>
 
@@ -206,8 +206,8 @@ My current directory is $PWD
 - 대신 변수 이름과 그 값을 취하는 일반적인 명령 set 이 있습니다.
 
 <pre>
-> <font color="purple">set</font> <font color="blue">name</font> <font color="yellow">'Mister Noodle'</font>
-> <font color="purple">echo</font> <font color="aqua">$name</font>
+> <font color="purple">set</font> <font color="blue">name</font> <font color="brown">'Mister Noodle'</font>
+> <font color="purple">echo</font> <font color="darkcyan">$name</font>
 Mister Noodle
 </pre>
 
@@ -215,7 +215,7 @@ Mister Noodle
 - 다른 셸과 달리 변수는 대체 후에 더 이상 분리되지 않습니다.
 
 <pre>
-> <font color="blue">mkdir</font> <font color="aqua">$name</font>
+> <font color="blue">mkdir</font> <font color="darkcyan">$name</font>
 > <font color="purple">ls</font>
 Mister Noodle
 </pre>
@@ -231,7 +231,7 @@ Mister Noodle
 
 <pre>
 > <font color="purple">false</font>
-> <font color="purple">echo</font> <font color="aqua">$status</font>
+> <font color="purple">echo</font> <font color="darkcyan">$status</font>
 1
 </pre>
 
