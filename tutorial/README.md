@@ -140,6 +140,9 @@ Some File
 
 - 그리고 명령을 한 번 입력하면 기록(history)도 몇자를 입력하여 명령을 다시 불러올 수 있습니다.
 
+<pre class="fish cli-dark"><span class="prompt">&gt;</span> <span class="error">r<span class="redirect">&lt;</span></span>\@args{ync} \ <span class="argument">ssh</span> <span class="argument">.</span> <span class="argument">myname</span><span>@</span>somelonghost.com:/some/long/path/doo/dee/doo/dee/doo}
+</pre>
+
 <font color="red">r</font>\<
 \\\@args\{ync\} 
 \\ <font color="blue">ssh . myname</font>@somelonghost.com:/some/long/path/doo/dee/doo/dee/doo\}
