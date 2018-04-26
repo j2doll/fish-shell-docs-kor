@@ -8,7 +8,7 @@
 
 > *[명령](https://j2doll.github.io/fish-shell-docs-kor/commands/)*
 
-> *[FAQ](https://j2doll.github.io/fish-shell-docs-kor/faq/)*
+> *[<b>FAQ</b>](https://j2doll.github.io/fish-shell-docs-kor/faq/)*
 
 > *[라이선스](https://j2doll.github.io/fish-shell-docs-kor/license-fish/)*
 

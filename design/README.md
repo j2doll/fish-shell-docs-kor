@@ -4,7 +4,7 @@
 
 > *[자습서](https://j2doll.github.io/fish-shell-docs-kor/tutorial/)*
 
-> *[디자인](https://j2doll.github.io/fish-shell-docs-kor/design/)*
+> *[<b>디자인</b>](https://j2doll.github.io/fish-shell-docs-kor/design/)*
 
 > *[명령](https://j2doll.github.io/fish-shell-docs-kor/commands/)*
 

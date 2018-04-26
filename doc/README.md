@@ -1,6 +1,6 @@
 # 피쉬 쉘(Fish Shell) 한글화 문서 [비공식]
 
-> *[문서](https://j2doll.github.io/fish-shell-docs-kor/doc/)*
+> *[<b>문서</b>](https://j2doll.github.io/fish-shell-docs-kor/doc/)*
 
 > *[자습서](https://j2doll.github.io/fish-shell-docs-kor/tutorial/)*
 

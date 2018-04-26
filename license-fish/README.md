@@ -10,7 +10,7 @@
 
 > *[FAQ](https://j2doll.github.io/fish-shell-docs-kor/faq/)*
 
-> *[라이선스](https://j2doll.github.io/fish-shell-docs-kor/license-fish/)*
+> *[<b>라이선스</b>](https://j2doll.github.io/fish-shell-docs-kor/license-fish/)*
 
 ## Licenses for fish
 fish Copyright © 2005-2009 Axel Liljencrantz. fish is released under the GNU General Public License, version 2.

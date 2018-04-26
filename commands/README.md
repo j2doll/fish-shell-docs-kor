@@ -6,7 +6,7 @@
 
 > *[디자인](https://j2doll.github.io/fish-shell-docs-kor/design/)*
 
-> *[명령](https://j2doll.github.io/fish-shell-docs-kor/commands/)*
+> *[<b>명령</b>](https://j2doll.github.io/fish-shell-docs-kor/commands/)*
 
 > *[FAQ](https://j2doll.github.io/fish-shell-docs-kor/faq/)*
 
