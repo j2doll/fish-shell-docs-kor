@@ -132,8 +132,9 @@ Some File
 ### 자동 제안 (Auto-suggestions)
 - 피쉬(fish)는 사용자가 입력할 때 명령(command)을 제안하고, 커서 오른쪽에있는 제안을 회색으로 표시합니다.
 
-> 예
-	> <font color="red">/bin/h</font><font color="grey">ostname</font>
+<pre> 
+ \> <font color="red">/bin/h</font><font color="grey">ostname</font>
+</pre>	
 
 - 피쉬는 경로 및 옵션에 대해 알고 있습니다.
 \> <font color="purple">grep</font> <font color="blue">--i</font><font color="grey">gnore-case</font>
