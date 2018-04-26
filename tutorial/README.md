@@ -41,16 +41,16 @@ you@hostname ~>
 - 명령을 입력하고 인수를 입력하면 됩니다. 백은 구분 기호입니다.
 
 <pre>
-\> <font color="purple">echo</font> <font color="blue">hello world</font>
+> <font color="purple">echo</font> <font color="blue">hello world</font>
 hello world
 </pre>
 
 - 역 슬래시(\)가 있는 인수에 리터럴(literal) 공백을 포함하거나 작은 따옴표(') 나 큰 따옴표(“)를 사용할 수 있습니다.
 
 <pre>
-\> <font color="blue">mkdir My\ Files</font>
-\> <font color="purple">cp</font> <font color="blue">~/Some\ File</font> <font color="brown">'My Files'</font>
-\> <font color="purple">ls</font> <font color="brown">"My Files"</font>
+> <font color="blue">mkdir My\ Files</font>
+> <font color="purple">cp</font> <font color="blue">~/Some\ File</font> <font color="brown">'My Files'</font>
+> <font color="purple">ls</font> <font color="brown">"My Files"</font>
 Some File
 </pre>
 
@@ -63,7 +63,7 @@ Some File
 	- 예: 웹 브라우저에서 열기 위해서 help set, 터미널에서 보기 위해 man set 설정
 
 <pre>
-\> <font color="purple">man</font> <font color="blue">set</font>
+> <font color="purple">man</font> <font color="blue">set</font>
 set - handle shell variables
   Synopsis...
 </pre>
@@ -73,19 +73,19 @@ set - handle shell variables
 - 잘못된 명령은 기본적으로 <font color="red">빨간색(Red)</font>으로 표시됩니다.
 
 <pre>
-\> <font color="red">/bin/mkd</font>
+> <font color="red">/bin/mkd</font>
 </pre>
 
 - 명령이 존재하지 않거나 실행할 수 없는 파일을 참조하기 때문에 명령이 유효하지 않을 수 있습니다. 명령이 유효해지면 다른 색으로 표시됩니다.
 
 <pre>
-\> <font color="blue">/bin/mkdir</font>
+> <font color="blue">/bin/mkdir</font>
 </pre>
 
 -  피쉬(fish)는 입력할 때 유효한 파일 경로에 밑줄을 긋습니다.
 
 <pre>
-\> <font color="purple">cat</font> <font color="blue"><u>~/somefi</u></font>
+> <font color="purple">cat</font> <font color="blue"><u>~/somefi</u></font>
 </pre>
 
 - 이것은 'somefi'로 시작하는 파일이 있다는 것을 의미하며, 이는 입력할 때 유용한 피드백입니다.
@@ -96,7 +96,7 @@ set - handle shell variables
 - 모든 JPEG 파일(*.jpg)을 나열하려면 다음과 같이하십시오.
 
 <pre>
-\> <font color="purple">ls</font> <font color="blue">\*.jpg</font>
+> <font color="purple">ls</font> <font color="blue">*.jpg</font>
  lena.jpg
  meena.jpg
  산타 마리아.jpg
@@ -105,7 +105,7 @@ set - handle shell variables
 - 여러 개의 와일드 카드를 포함 할 수도 있습니다.
 
 <pre>
-\> <font color="purple">ls</font> <font color="blue">l\*.p\*</font>
+> <font color="purple">ls</font> <font color="blue">l*.p*</font>
  lena.png
  lesson.pdf
 </pre>
@@ -124,7 +124,7 @@ set - handle shell variables
 - 일반적인 세로 막대(\|)를 사용하여 명령 사이를 파이프 할 수 있습니다.
 
 <pre>
-\> <font color="purple">echo</font> <font color="blue">hello world</font> | <font color="blue">wc</font>
+> <font color="purple">echo</font> <font color="blue">hello world</font> | <font color="blue">wc</font>
        1       2      12
 </pre>
 
@@ -132,20 +132,20 @@ set - handle shell variables
 - 다른 쉘과는 달리 stderr은 캐럿(^)으로 리디렉션됩니다.
 
 <pre>
-\> <font color="purple">grep</font> <font color="blue">fish</font> < /etc/shells > ~/output.txt ^ ~/errors.txt
+> <font color="purple">grep</font> <font color="blue">fish</font> < /etc/shells > ~/output.txt ^ ~/errors.txt
 </pre>
 
 ### 자동 제안 (Auto-suggestions)
 - 피쉬(fish)는 사용자가 입력할 때 명령(command)을 제안하고, 커서 오른쪽에있는 제안을 회색으로 표시합니다.
 
 <pre>
-\> <font color="red">/bin/h</font>ostname
+> <font color="red">/bin/h</font>ostname
 </pre>
 
 - 피쉬는 경로 및 옵션에 대해 알고 있습니다.
 
 <pre>
-\> <font color="purple">grep</font> <font color="blue">--i</font>gnore-case
+> <font color="purple">grep</font> <font color="blue">--i</font>gnore-case
 </pre>
 
 - 그리고 명령을 한 번 입력하면 기록(history)도 몇자를 입력하여 명령을 다시 불러올 수 있습니다.
@@ -163,13 +163,13 @@ set - handle shell variables
 - Tab 키를 누르면 피쉬(fish)가 명령, 인수 또는 경로를 완료하려고 시도합니다.
 
 <pre>
-\> <font color="red">/pri</font> <font color="blue">@key{Tab} → /private/</font>
+> <font color="red">/pri</font> <font color="blue">@key{Tab} → /private/</font>
 </pre>
 
 - 둘 이상의 가능성이 있는 경우 목록에 표시됩니다.
 
 <pre>
-\> <font color="red">~/stuff/s</font> @key{Tab}
+> <font color="red">~/stuff/s</font> @key{Tab}
 ~/stuff/script.sh  <font color="grey">(Executable, 4.8kB)</font>  <font/>~/stuff/sources/</font>  (Directory)
 </pre>
 
@@ -177,8 +177,8 @@ set - handle shell variables
 - fish can also complete many commands, like git branches:
 
 <pre>
-\> <font color="purple">git</font> <font color="blue">merge pr</font> @key{Tab} → <font color="purple">git</font> <font color="blue">merge prompt_designer</font>
-\> <font color="purple">git</font> <font color="blue">checkout b</font> @key{Tab}
+> <font color="purple">git</font> <font color="blue">merge pr</font> @key{Tab} → <font color="purple">git</font> <font color="blue">merge prompt_designer</font>
+> <font color="purple">git</font> <font color="blue">checkout b</font> @key{Tab}
 builtin_list_io_merge <font color="grey">(Branch)</font> <font color="darkcyan">builtin_set_color</font> <font color="grey">(Branch)</font> <font color="darkcyan">busted_events</font> <font color="grey">(Tag)</font>
 </pre>
 
@@ -189,16 +189,16 @@ builtin_list_io_merge <font color="grey">(Branch)</font> <font color="darkcyan">
 - 다른 쉘과 마찬가지로 달러 기호는 변수 대체를 수행합니다.
 
 <pre>
-\> <font color="purple">echo</font> <font color="blue">My home directory is</font> <font color="darkcyan">$HOME</font>
+> <font color="purple">echo</font> <font color="blue">My home directory is</font> <font color="darkcyan">$HOME</font>
 My home directory is /home/tutorial
 </pre>
 
 - 변수 대입은 큰 따옴표에서도 발생하지만 작은 따옴표에서는 발생하지 않습니다.
 
 <pre>
-\> <font color="purple">echo</font> <font color="brown">"My current directory is $PWD"</font>
+> <font color="purple">echo</font> <font color="brown">"My current directory is $PWD"</font>
 My current directory is /home/tutorial
-\> <font color="purple">echo</font> <font color="brown">'My current directory is $PWD'</font>
+> <font color="purple">echo</font> <font color="brown">'My current directory is $PWD'</font>
 My current directory is $PWD
 </pre>
 
@@ -206,8 +206,8 @@ My current directory is $PWD
 - 대신 변수 이름과 그 값을 취하는 일반적인 명령 set 이 있습니다.
 
 <pre>
-\> <font color="purple">set</font> <font color="blue">name</font> <font color="brown">'Mister Noodle'</font>
-\> <font color="purple">echo</font> <font color="darkcyan">$name</font>
+> <font color="purple">set</font> <font color="blue">name</font> <font color="brown">'Mister Noodle'</font>
+> <font color="purple">echo</font> <font color="darkcyan">$name</font>
 Mister Noodle
 </pre>
 
@@ -215,8 +215,8 @@ Mister Noodle
 - 다른 셸과 달리 변수는 대체 후에 더 이상 분리되지 않습니다.
 
 <pre>
-\> <font color="blue">mkdir</font> <font color="darkcyan">$name</font>
-\> <font color="purple">ls</font>
+> <font color="blue">mkdir</font> <font color="darkcyan">$name</font>
+> <font color="purple">ls</font>
 Mister Noodle
 </pre>
 
@@ -230,8 +230,8 @@ Mister Noodle
 - 다른 쉘과 달리 피쉬(fish)는 마지막 명령(last command)의 종료 상태를 $?. 대신 $status 에 저장합니다.
 
 <pre>
-\> <font color="purple">false</font>
-\> <font color="purple">echo</font> <font color="darkcyan">$status</font>
+> <font color="purple">false</font>
+> <font color="purple">echo</font> <font color="darkcyan">$status</font>
 1
 </pre>
 
@@ -244,16 +244,16 @@ Mister Noodle
 - (set 명령어 활용을 권장합니다!)
 
 <pre>
-\> <font color="purple">set</font> <font color="blue">-x MyVariable SomeValue</font>
-\> <font color="purple">env</font> | <font color="purple">grep</font> MyVariable
+> <font color="purple">set</font> <font color="blue">-x MyVariable SomeValue</font>
+> <font color="purple">env</font> | <font color="purple">grep</font> MyVariable
 <font color="drkcyan">MyVariablem</font>=SomeValue
 </pre>
 
 - -e 또는—erase 를 사용하여 변수를 지울 수도 있습니다.
 
 <pre>
-\> <font color="purple">set</font> <font color="blue">-e MyVariable</font>
-\> <font color="purple">env</font> | <font color="purple">grep</font> <font color="blue">MyVariable</font>
+> <font color="purple">set</font> <font color="blue">-e MyVariable</font>
+> <font color="purple">env</font> | <font color="purple">grep</font> <font color="blue">MyVariable</font>
 (no output)
 </pre>
 
@@ -264,7 +264,7 @@ Mister Noodle
 - $PATH 와 같은 다른 변수에는 실제로 여러 값이 있습니다. 변수 확장 중에는 변수가 확장되어 여러 인수가 됩니다. <font color="red">(경로들간에 콜론(:)이 없는 것을 주목하십시오!)</font>
 
 <pre>
-\> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>
+> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>
 /usr/bin /bin /usr/sbin /sbin /usr/local/bin
 </pre>
 
@@ -275,7 +275,7 @@ Mister Noodle
 - 변수는 문자열(string)의 목록(list)이며, 전체 정지입니다.
 
 <pre>
-\> <font color="purple">count</font> <font color="darkcyan">$PATH</font>
+> <font color="purple">count</font> <font color="darkcyan">$PATH</font>
 5
 </pre>
 
@@ -283,34 +283,34 @@ Mister Noodle
 - 다음은 /usr/local/bin을 $PATH에 추가하는 예제입니다.
 
 <pre>
-\> <font color="purple">set</font> <font color="blue">PATH</font> <font color="darkcyan">$PATH</font> <font color="blue">/usr/local/bin</font>
+> <font color="purple">set</font> <font color="blue">PATH</font> <font color="darkcyan">$PATH</font> <font color="blue">/usr/local/bin</font>
 </pre>
 
 - 대괄호([])로 개별 요소에 접근 할 수도 있습니다.
 - 인덱싱(indexing)은 처음부터 1에서 시작하고, 끝에서 부터는 -1에서 시작합니다.
 
 <pre>
- \> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>
+ > <font color="purple">echo</font> <font color="darkcyan">$PATH</font>
 /usr/bin /bin /usr/sbin /sbin /usr/local/bin
-\> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>[1]
+> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>[1]
 /usr/bin
-\> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>[-1]
+> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>[-1]
 /usr/local/bin
 </pre>
 
 - 그리고 "조각(slice:)" 이라고 하는 요소 범위에도 접근할 수도 있습니다.
 
 <pre>
-\> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>[1..2]
+> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>[1..2]
 /usr/bin /bin
-\> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>[-1..2]
+> <font color="purple">echo</font> <font color="darkcyan">$PATH</font>[-1..2]
 /usr/local/bin /sbin /usr/sbin /bin
 </pre>
 
 - 물론 for 루프(loop)를 사용하여 목록(또는 슬라이스)을 반복 할 수 있습니다.
 
 <pre>
-\> <font color="purple">for</font> val <font color="purple">in</font> $PATH
+> <font color="purple">for</font> val <font color="purple">in</font> $PATH
     <font color="purple">echo</font> <font color="brown">"entry: $val"</font>
   <font color="purple">end</font>
 entry: /usr/bin/
@@ -323,13 +323,13 @@ entry: /usr/local/bin
 - 다른 목록이나 문자열에 인접한 목록은 따옴표가 붙지 않는 한 곱집합(cartesian products)으로 확장됩니다 ([변수 확장](https://translate.googleusercontent.com/translate_c?act=url&depth=1&hl=ko&ie=UTF8&prev=_t&rurl=translate.google.co.kr&sl=en&sp=nmt4&tl=ko&u=https://fishshell.com/docs/current/index.html&xid=17259,15700023,15700043,15700105,15700124,15700149,15700168,15700173,15700201&usg=ALkJrhhj-v_8MUZPDBdTkWgs4tPZUoR7Aw#expand-variable) 참조)
 
 <pre>
-\> <font color="purple">set</font> -l a 1 2 3
-\> <font color="purple">set</font> -l 1 a b c
-\> <font color="purple">echo</font> $a$1
+> <font color="purple">set</font> -l a 1 2 3
+> <font color="purple">set</font> -l 1 a b c
+> <font color="purple">echo</font> $a$1
 1a 2a 3a 1b 2b 3b 1c 2c 3c
-\> <font color="purple">echo</font> $a" banana"
+> <font color="purple">echo</font> $a" banana"
 1 banana 2 banana 3 banana
-\> <font color="purple">echo</font> "$a banana"
+> <font color="purple">echo</font> "$a banana"
 1 2 3 banana
 </pre>
 
@@ -341,15 +341,15 @@ entry: /usr/local/bin
 - 대신 괄호()를 사용합니다.
 
 <pre>
-\> <font color="purple">echo</font> <font color="blue">In</font> (<font color="purple">pwd</font>), <font color="blue">running</font> (<font color="purple">uname</font>)
+> <font color="purple">echo</font> <font color="blue">In</font> (<font color="purple">pwd</font>), <font color="blue">running</font> (<font color="purple">uname</font>)
 In /home/tutorial, running FreeBSD
 </pre>
 
 - 명령 변수의 출력을 캡처하는 것은 일반적인 관용입니다.
 
 <pre>
-\> <font color="purple">set</font> os (<font color="purple">uname</font>)
-\> <font color="purple">echo</font> <font color="darkcyan">$os</font>
+> <font color="purple">set</font> os (<font color="purple">uname</font>)
+> <font color="purple">echo</font> <font color="darkcyan">$os</font>
 Linux
 </pre>
 
@@ -357,8 +357,8 @@ Linux
 - 대신, 동일한 인수에서 따옴표를 임시로 닫고 명령 대체를 추가한 다음 다시 열 수 있습니다.
 
 <pre>
-\> <font color="purple">touch</font> <font color="brown">"testing_"</font>(<font color="purple">date</font> <font color="blue">+%s</font>)<font color="brown">".txt"</font>
-\> <font color="purple">ls</font> <font color="blue">\*.txt</font>
+> <font color="purple">touch</font> <font color="brown">"testing_"</font>(<font color="purple">date</font> <font color="blue">+%s</font>)<font color="brown">".txt"</font>
+> <font color="purple">ls</font> <font color="blue">*.txt</font>
 testing_1360099791.txt
 </pre>
 
@@ -367,9 +367,9 @@ testing_1360099791.txt
 - 공백으로 분할하려면 string split 을 사용하십시오.
 
 <pre>
-\> <font color="purple">printf</font> <font color="brown">'%s\n'</font> (<font color="blue">pkg</font>-config <font color="blue">--libs gio-2.0</font>)
+> <font color="purple">printf</font> <font color="brown">'%s\n'</font> (<font color="blue">pkg</font>-config <font color="blue">--libs gio-2.0</font>)
 -lgio-2.0 -lgobject-2.0 -lglib-2.0
-\> <font color="purple">printf</font> <font color="brown">'%s\n'</font> (<font color="blue">pkg</font>-config <font color="blue">--libs gio-2.0</font> | <font color="purple">string</font> <font color="blue">split</font> " ")
+> <font color="purple">printf</font> <font color="brown">'%s\n'</font> (<font color="blue">pkg</font>-config <font color="blue">--libs gio-2.0</font> | <font color="purple">string</font> <font color="blue">split</font> " ")
 -lgio-2.0
 -lgobject-2.0
 -lglib-2.0
@@ -392,7 +392,7 @@ testing_1360099791.txt
 - 대신에 and, or, not 명령을 가지고 있습니다.
 
 <pre>
-\> <font color="purple">cp</font> file1.txt file1_bak.txt; <font color="purple">and echo</font> <font color="brown">"Backup successful"</font>; or echo <font color="brown">"Backup failed"</font>
+> <font color="purple">cp</font> file1.txt file1_bak.txt; <font color="purple">and echo</font> <font color="brown">"Backup successful"</font>; or echo <font color="brown">"Backup failed"</font>
 Backup failed
 </pre>
 
@@ -436,12 +436,12 @@ end
     <font color="purple">echo</font> Hi Hexley!
 <font color="purple">case FreeBSD NetBSD DragonFly
     <font color="purple">echo</font> Hi Beastie!
-<font color="purple">case</font> '\*'
+<font color="purple">case</font> '*'
     <font color="purple">echo</font> Hi, stranger!
 <font color="purple">end</font>
 </pre>
 
-- case 는 (다음 case 구문으로는) 작동되지 않으며(does not fall through), 여러 개의 인수 또는 와일드 카드(\*)를 사용할 수 있습니다.
+- case 는 (다음 case 구문으로는) 작동되지 않으며(does not fall through), 여러 개의 인수 또는 와일드 카드(*)를 사용할 수 있습니다.
 - (예제에서 Linux Fish 인 경우, Hi Tux! 만 출력되며, MSYS Fish 인 경우 Hi, Stranger 가 출력됩니다.)
 
 ### 함수 (Function)
@@ -450,12 +450,12 @@ end
 - 함수를 만들려면 내장 함수를 사용하십시오.
 
 <pre>
-\> <font color="purple">function</font> say_hello
+> <font color="purple">function</font> say_hello
           <font color="purple">echo</font> Hello $argv
   <font color="purple">end</font>
-\> <font color="blue">say_hello</font>
+> <font color="blue">say_hello</font>
 Hello
-\> <font color="blue">say_hello everybody!</font>
+> <font color="blue">say_hello everybody!</font>
 Hello everybody!
 </pre>
 
@@ -464,14 +464,14 @@ Hello everybody!
 - 피쉬(fish)는 많은 함수를 제공합니다.
 
 <pre>
-\> <font color="purple">functions</font>
+> <font color="purple">functions</font>
 alias, cd, delete-or-exit, dirh, dirs, down-or-search, eval, export, fish_command_not_found_setup, fish_config, fish_default_key_bindings, fish_prompt, fish_right_prompt, fish_sigtrap_handler, fish_update_completions, funced, funcsave, grep, help, history, isatty, ls, man, math, nextd, nextd-or-forward-word, open, popd, prevd, prevd-or-backward-word, prompt_pwd, psub, pushd, seq, setenv, trap, type, umask, up-or-search, vared
 </pre>
 
 - 함수 이름을 functions 에 전달하면 모든 함수의 소스(source)를 볼 수 있습니다.
 
 <pre>
-\> <font color="purple">functions</font> <font color="blue">ls</font>
+> <font color="purple">functions</font> <font color="blue">ls</font>
 <font color="purple">function</font> <font color="blue">ls</font> --description 'List contents of directory'
     <font color="purple">command ls</font> <font color="blue">-G</font> $argv
 <font color="purple">end</font>
@@ -481,7 +481,7 @@ alias, cd, delete-or-exit, dirh, dirs, down-or-search, eval, export, fish_comman
 - while 무한 루프 :
 
 <pre>
-\> <font color="purple">while</font> true
+> <font color="purple">while</font> true
     <font color="purple">echo</font> "Loop forever"
 <font color="purple">end</font>
 Loop forever
@@ -494,7 +494,7 @@ Loop forever
 - 예를 들어, 파일 목록 :
 
 <pre>
-\> <font color="purple">for</font> file <font color="purple">in</font> \*.txt
+> <font color="purple">for</font> file <font color="purple">in</font> *.txt
     <font color="purple">cp</font> $file $file.bak
 <font color="purple">end</font>
 </pre>
@@ -502,7 +502,7 @@ Loop forever
 - 명령 seq 을 사용하여 숫자 목록을 반복 할 수 있습니다.
 
 <pre>
-\> for x in (seq 5)
+> for x in (seq 5)
     touch file_$x.txt
 end
 </pre>
@@ -513,7 +513,7 @@ end
 - 다음과 같은 나만의 프롬프트도 정의할 수 있습니다.
 
 <pre>
-\> function fish_prompt
+> function fish_prompt
     echo "New Prompt % "
 end
 New Prompt %
@@ -523,7 +523,7 @@ New Prompt %
 - set_color 를 통해 색상을 설정하고 ANSI 색상 또는 16 진수 RGB 값을 전달할 수도 있습니다.
 
 <pre>
-\> function fish_prompt
+> function fish_prompt
       set_color purple
       date "+%m/%d/%y"
       set_color FF0
@@ -543,20 +543,20 @@ New Prompt %
 - /usr/local/bin 과 /usr/sbin 을 $PATH 앞에 추가하려면 다음과 같이 작성할 수 있습니다.
 
 <pre>
-\> set PATH /usr/local/bin /usr/sbin $PATH
+> set PATH /usr/local/bin /usr/sbin $PATH
 </pre>
 
 - $PATH 에서 /usr/local/bin 을 제거하려면 다음과 같이 작성할 수 있습니다.
 
 <pre>
-\> set PATH (string match -v /usr/local/bin $PATH)
+> set PATH (string match -v /usr/local/bin $PATH)
 </pre>
 
 - .profile 파일을 가진 다른 쉘 에서처럼 피쉬는 config.fish 파일에서 직접 작업을 할 수 있습니다. (예제 참조)
 - 더 빠른 방법은 $fish_user_paths universal 변수 를 수정하는 $fish_user_paths 을 사용하여 자동으로 $PATH 앞에 추가하는 것입니다. 예를 들어 $PATH 에 /usr/local/bin 을 영구적으로 추가하려면 다음과 같이 작성할 수 있습니다.
 
 <pre>
-\> set -U fish_user_paths /usr/local/bin $fish_user_paths
+> set -U fish_user_paths /usr/local/bin $fish_user_paths
 </pre>
 
 - 이러한 방법의 잇점은 파일에서 수정할 필요가 없다는 것입니다.
@@ -569,7 +569,7 @@ New Prompt %
 - 위에 표시된 명령을 사용하여 config.fish 파일에 함수 및 변수를 직접 작성할 수 있습니다.
 
 <pre>
-\> cat ~/.config/fish/config.fish
+> cat ~/.config/fish/config.fish
 
 set -x PATH $PATH /sbin/
 
@@ -583,7 +583,7 @@ en
 - 예를 들어, 함수 ll 을 만들고 싶다면(물론 ll이 없는 경우에 활용하는 방법입니다), ll 함수를 ~/.config/fish/functions 파일에 추가하면 됩니다.
 
 <pre>
-\> cat ~/.config/fish/functions/ll.fish
+> cat ~/.config/fish/functions/ll.fish
 function ll
     ls -lh $argv
 end
@@ -592,7 +592,7 @@ end
 - 이것은 프롬프트를 정의하는 기본 방법입니다.
 
 <pre>
-\> cat ~/.config/fish/functions/fish_prompt.fish
+> cat ~/.config/fish/functions/fish_prompt.fish
 function fish_prompt
     echo (pwd) "> "
 end
@@ -603,13 +603,13 @@ end
 ### 범용 변수 (Universal Variables)
 
 <pre>
-\> set -U EDITOR vim
+> set -U EDITOR vim
 </pre>
 
 - 이제 다른 쉘에서 다음 명령을 실행하여 보십시오.
 
 <pre>
-\> echo $EDITOR
+> echo $EDITOR
 vim
 </pre>
 
