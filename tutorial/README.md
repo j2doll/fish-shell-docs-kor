@@ -140,12 +140,8 @@ Some File
 
 - 그리고 명령을 한 번 입력하면 기록(history)도 몇자를 입력하여 명령을 다시 불러올 수 있습니다.
 
-<pre class="fish cli-dark"><span class="prompt">&gt;</span> <span class="error"><font color="red">r</font><span class="redirect">&lt;</span></span>\@args{ync} \ <span class="argument">ssh</span> <span class="argument">.</span> <span class="argument">myname</span><span>@</span>somelonghost.com:/some/long/path/doo/dee/doo/dee/doo}
+<pre class="fish cli-dark"><span class="prompt">&gt;</span> <span class="error"><font color="red">r</font><span class="redirect">&lt;</span></span>\@args{ync} \ <span class="argument"><font color="blue">ssh</font></span> <span class="argument"><font color="blue">.</font></span> <span class="argument"><font color="blue">myname</font></span><span>@</span>somelonghost.com:/some/long/path/doo/dee/doo/dee/doo}
 </pre>
-
-<font color="red">r</font>\<
-\\\@args\{ync\} 
-\\ <font color="blue">ssh . myname</font>@somelonghost.com:/some/long/path/doo/dee/doo/dee/doo\}
 
 - 자동 제안을 수락하려면  → 또는 Control F 를 누르십시오. 
 - 자동 제안의 한 단어를 수락하려면  Alt (오른쪽 화살표)를 누르십시오.
