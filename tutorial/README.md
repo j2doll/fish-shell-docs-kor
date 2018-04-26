@@ -583,19 +583,19 @@ New Prompt %
 - 예를 들어, 함수 ll 을 만들고 싶다면(물론 ll이 없는 경우에 활용하는 방법입니다), ll 함수를 ~/.config/fish/functions 파일에 추가하면 됩니다.
 
 <pre>
-> cat ~/.config/fish/functions/ll.fish
-function ll
-    ls -lh $argv
-end
+> <font color="purple">cat</font> <font color="blue">~/.config/fish/functions/ll.fish</font>
+<font color="purple">function</font> <font color="blue">ll</font>
+    <font color="purple">ls</font> <font color="blue">-lh</font> $argv
+<font color="purple">end</font>
 </pre>
 
 - 이것은 프롬프트를 정의하는 기본 방법입니다.
 
 <pre>
-> cat ~/.config/fish/functions/fish_prompt.fish
-function fish_prompt
-    echo (pwd) "> "
-end
+> <font color="purple">cat</font> <font color="blue">~/.config/fish/functions/fish_prompt.fish</font>
+<font color="purple">function</font> <font color="blue">fish_prompt</font>
+    <font color="purple">echo</font> (pwd) "> "
+<font color="purple">end</font>
 </pre>
 
 - 이러한 파일을 자동으로 만드는 방법은 funced 및 funcsave 설명서를 참조하십시오.
