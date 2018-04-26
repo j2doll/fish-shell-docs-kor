@@ -243,4 +243,20 @@ Mister Noodle
 - 대신 변수는 –export 또는 -x 중 하나를 set 하는 옵션을 통해 내보내집니다.
 - (set 명령어 활용을 권장합니다!)
 
+<pre>
+> <font color="purple">set</font> <font color="blue">-x MyVariable SomeValue</font>
+> <font color="purple">env</font> | <font color="purple">grep</font> MyVariable
+<font color="drkcyan">MyVariablem</font>=SomeValue
+</pre>
+
+- -e 또는—erase 를 사용하여 변수를 지울 수도 있습니다.
+
+<pre>
+> <font color="purple">set</font> <font color="blue">-e MyVariable</font>
+> <font color="purple">env</font> | <font color="purple">grep</font> <font color="blue">MyVariable</font>
+(no output)
+</pre>
+
+### 목록(List)
+
 
