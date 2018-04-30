@@ -337,7 +337,7 @@ entry: /usr/local/bin
 
 ### 명령 확장(Variable expansion)
 - 명령 확장은 한 명령의 출력을 다른 명령의 인수로 사용합니다.
-- 다른 쉘과는 달리, 피쉬(fish)는 명령 확장을 위해 <font color="red">백틱(\`)을 사용하지 않습니다!</font>
+- 다른 쉘과는 달리, 피쉬(fish)는 명령 확장을 위해 <font color="red">백틱(`)을 사용하지 않습니다!</font>
 - 대신 괄호()를 사용합니다.
 
 <pre>
