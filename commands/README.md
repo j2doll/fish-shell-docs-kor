@@ -10,6 +10,6 @@
 
 > *[FAQ](https://j2doll.github.io/fish-shell-docs-kor/faq/)*
 
-> *[라이선스](https://j2doll.github.io/fish-shell-docs-kor/license-fish/)*
+> *[라이센스](https://j2doll.github.io/fish-shell-docs-kor/license-fish/)*
 
 

@@ -12,7 +12,7 @@
 
 > *[<b>>라이센스</b>](https://j2doll.github.io/fish-shell-docs-kor/license-fish/)*
 
-## 피쉬를 위한 >라이센스
+## 피쉬를 위한 라이센스
 
 피쉬 저작권 © 2005-2009 Axel Liljencrantz.
 
