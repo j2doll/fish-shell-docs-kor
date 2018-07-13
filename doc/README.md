@@ -38,8 +38,8 @@ man은 주어진 주제에 매뉴얼(manual) 페이지를 표시하는 명령이
 그렇지 않으면, 디렉토리를 포함한 전체 파일 이름을 사용해야 합니다.
  (예를 들어 /home/me/code/checkers/checkers 또는 ../checkers)
 
-
 다음은 유용한 명령들의 목록입니다.
+
 cd, 현재 디렉토리를 변경하십시오.
 ls, 파일 및 디렉토리 나열
 man, 화면에 설명서 페이지를 표시하십시오.
@@ -47,7 +47,6 @@ mv, 파일 이동 (이름 바꾸기)
 cp, 파일 복사
 open, 각 파일 유형과 연관된 기본 응용 프로그램으로 파일 열기
 less,파일의 내용을 나열하십시오
-
 
 명령(Command)과 매개변수(Parameter)는 공백 문자 ''로 구분됩니다.
 
@@ -84,13 +83,17 @@ less,파일의 내용을 나열하십시오
 
 예:
 
+```sh
 rm "cumbersome filename.txt"
+```
 
 위 예제는 파일 'cumbersome filename.txt' 를 제거할 것입니다.
 
 반면,
 
+```sh
 rm cumbersome filename.txt
+```
 
 위 예제는 두 개의 파일 'cumbersome'와 'filename.txt' 를 제거합니다.
 
