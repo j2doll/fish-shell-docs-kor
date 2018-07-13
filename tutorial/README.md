@@ -10,7 +10,7 @@
 
 > *[FAQ](https://j2doll.github.io/fish-shell-docs-kor/faq/)*
 
-> *[라이선스](https://j2doll.github.io/fish-shell-docs-kor/license-fish/)*
+> *[라이센스](https://j2doll.github.io/fish-shell-docs-kor/license-fish/)*
 
 ## 피쉬 쉘 (Fish Shell) 자습서 [입문, 강좌, 소개, 튜토리얼]
 
@@ -627,5 +627,5 @@ New Prompt %
 	- [http://j2doll.tistory.com/563](http://j2doll.tistory.com/563)
 - 원본 [https://fishshell.com/docs/current/tutorial.html](https://fishshell.com/docs/current/tutorial.html)
 
-#### 라이선스 주의
-- 피쉬 쉘의 소스코드 및 자료는 모두 GPL 라이선스 2 입니다. 쉽게 이야기 해서 해당 코드 및 자료를 사용하면 공개하셔야 합니다.
+#### 라이센스 주의
+- 피쉬 쉘의 소스코드 및 자료는 모두 GPL 라이센스 2 입니다. 쉽게 이야기 해서 해당 코드 및 자료를 사용하면 공개하셔야 합니다.
