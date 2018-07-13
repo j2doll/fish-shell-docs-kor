@@ -16,7 +16,7 @@
 
 ## 소개 (Introduction)
 
-이것은 편리하고 상호 반응하는 피쉬 쉘(Fish Shell)을 위한 문서입다. 피쉬는 사용자 친화적인 명령 줄(Command Line) 쉘입니다. 쉘(Shell)은 다른 프로그램을 실행하는 데 사용되는 프로그램입니다. 피쉬에 대한 최신 정보는 물고기 홈페이지를 방문하십시오. https://fishshell.com
+이것은 편리하고 상호 반응하는 피쉬 쉘(Fish Shell)을 위한 문서입다. 피쉬는 사용자 친화적인 명령 줄(Command Line) 쉘입니다. 쉘(Shell)은 다른 프로그램을 실행하는 데 사용되는 프로그램입니다. 피쉬에 대한 최신 정보는 피쉬 쉘 홈페이지를 방문하십시오. [https://fishshell.com](https://fishshell.com)
 
 ## 구문 개요 (Syntax overview)
 
@@ -94,4 +94,7 @@ rm cumbersome filename.txt
 
 위 예제는 두 개의 파일 'cumbersome'와 'filename.txt' 를 제거합니다.
 
+<b>
 [..작성중..]
+빠른 이해를 하시려면 [자습서](https://j2doll.github.io/fish-shell-docs-kor/tutorial/)를 참조하세요
+</b>
