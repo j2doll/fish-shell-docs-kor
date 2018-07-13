@@ -95,6 +95,9 @@ rm cumbersome filename.txt
 위 예제는 두 개의 파일 'cumbersome'와 'filename.txt' 를 제거합니다.
 
 <b>
-[..작성중..]
-빠른 이해를 하시려면 [자습서](https://j2doll.github.io/fish-shell-docs-kor/tutorial/)를 참조하세요
+	
+//작성중//
+
+빠른 이해를 하시려면 [자습서](https://j2doll.github.io/fish-shell-docs-kor/tutorial/)를 참조하세요.
+
 </b>
